@@ -105,8 +105,10 @@
                 
             }
             .filtrore{
-                display: block;
+                display: flex;
+                flex-direction: row;
                 margin-top: 10%;
+                margin-bottom: 5%;
                 .acordeonf{
                     width: 100%;
                     position: absolute;
@@ -152,9 +154,14 @@
                 }          
             }
             .calzado{
-                margin-top: 12%;
                 justify-content: center;
+                width: 100%;
+                margin-left: 0%;
+                margin-right: 0%;
+                margin-bottom: 5%;
+                margin-top: 15%;
                 img{
+                    
                     width: 300px;
                 }
                 h4{

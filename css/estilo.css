@@ -1076,7 +1076,8 @@
           background-color: #c45125; }
   .contenedor .demano .carteras {
     margin-top: 12%;
-    justify-content: center; }
+    justify-content: center;
+    width: 100%; }
   .contenedor .demano .whatsapp {
     position: fixed;
     bottom: 10px;
@@ -1748,8 +1749,10 @@
   .contenedor .zapatos .filtro {
     display: none; }
   .contenedor .zapatos .filtrore {
-    display: block;
-    margin-top: 10%; }
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 5%; }
     .contenedor .zapatos .filtrore .acordeonf {
       width: 100%;
       position: absolute;
@@ -1787,8 +1790,12 @@
           margin-top: 18px;
           background-color: #ff3100; }
   .contenedor .zapatos .calzado {
-    margin-top: 12%;
-    justify-content: center; }
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    margin-top: 15%; }
     .contenedor .zapatos .calzado img {
       width: 300px; }
     .contenedor .zapatos .calzado h4 {
@@ -1964,8 +1971,12 @@
           margin-top: 18px;
           background-color: #bab9b3; }
   .contenedor .accesorios .accesoriosi {
-    margin-top: 12%;
-    justify-content: center; }
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    margin-top: 10%; }
     .contenedor .accesorios .accesoriosi img {
       width: 300px; }
     .contenedor .accesorios .accesoriosi h4 {
