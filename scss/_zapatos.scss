@@ -48,20 +48,22 @@
                 } 
             }
         }
-    }
+    
     .calzado{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-left: 20%;
-        margin-top: 2%;
+        margin-top: 5%;
+        margin-right: 5%;
         margin-bottom: 5%;
+        justify-content: space-around;
         
     img{
         width: 250px;
         border: 1px #000000;
-        margin: 45px;
-        margin-right: 90px;
+        margin: 10px;
+        margin-right: 30px;
         padding-left: 0%;
     }
     h4{
@@ -69,27 +71,30 @@
         font-weight: bold;
         color: black;
         margin-top: -50px;
-        margin-left: 105px;
+        margin-left: 95px;
         font-size: 15px;
     }
     h5{
         font-family: $letraMon;
         font-weight: bold;
         color: black;
-        margin-left: 150px;
+        margin-left: 140px;
         font-size: 13PX;
-        }
+        }    
     }
     .whatsapp{
         position: fixed;
         bottom: 20px;
-        right: -70px;
+        right: 0px;
         overflow: hidden;
         padding: 5px;
         .whatsapp__img{
             width: 40px;
         }
     }
+}
+
+    
 
 
 @media only screen and (max-width: 858px){
@@ -142,8 +147,7 @@
                         margin-right: 10px;
                         margin-top: 18px;
                             background-color: #ff3100;
-                        }
-                         
+                        }                         
                     }
                 }          
             }
@@ -154,10 +158,10 @@
                     width: 300px;
                 }
                 h4{
-                    margin-left: 125px;
+                    margin-left: 105px;
                 }
                 h5{
-                    margin-left: 175px;
+                    margin-left: 145px;
                 }
             }
             .whatsapp{

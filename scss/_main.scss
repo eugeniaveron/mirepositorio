@@ -105,6 +105,16 @@
                         }
                     }
                 }
+                .whatsapp{
+                    position: fixed;
+                    bottom: 20px;
+                    right: 0px;
+                    overflow: hidden;
+                    padding: 5px;
+                    .whatsapp__img{
+                        width: 40px;
+                    }
+                }
     }
 }
 

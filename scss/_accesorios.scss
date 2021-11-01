@@ -42,10 +42,8 @@
                 .color4{
                     @extend .color1;
                     background-color: #bab9b3;
-                }
-               
-                } 
-            }
+                }  
+            } 
         }
     }
     .accesoriosi{
@@ -53,29 +51,31 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin-left: 20%;
+        margin-right: 5%;
         margin-top: 2%;
         margin-bottom: 5%;
+        justify-content: space-evenly;
         
     img{
         width: 250px;
         border: 1px #000000;
-        margin: 45px;
-        margin-right: 90px;
+        margin: 20px;
+        margin-right: 10px;
         padding-left: 0%;
     }
     h4{
         font-family: $letraMon;
         font-weight: bold;
         color: black;
-        margin-top: -50px;
-        margin-left: 105px;
+        margin-top: -45px;
+        margin-left: 80px;
         font-size: 15px;
     }
     h5{
         font-family: $letraMon;
         font-weight: bold;
         color: black;
-        margin-left: 150px;
+        margin-left: 130px;
         font-size: 13PX;
         }
     }
@@ -89,7 +89,7 @@
             width: 40px;
         }
     }
-
+}
 
 @media only screen and (max-width: 858px){
     .contenedor{
@@ -152,10 +152,10 @@
                     width: 300px;
                 }
                 h4{
-                    margin-left: 125px;
+                    margin-left: 100px;
                 }
                 h5{
-                    margin-left: 175px;
+                    margin-left: 150px;
                 }
             }
             .whatsapp{
