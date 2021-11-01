@@ -1,0 +1,113 @@
+.contenedor{
+        header{
+            z-index: 1001;
+            position: sticky;
+            top: 0px;
+            h2{
+                font-size: 13px;
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                background-color: white;
+                width: 100%;    
+                }
+            a{
+            text-decoration: none;
+                #fondoh{
+                background-color: #3a3a3a;
+                }    
+                h1{      
+                    color: rgb(253, 251, 251);
+                    font-weight: bold;
+                    letter-spacing: 5px;
+                    font-size: 30px;
+                    font-family: 'Spectral SC', serif;
+                    text-align: center;
+                    &:hover{
+                        color: rgb(235, 231, 231);
+                            } 
+                    }
+                }
+                nav{
+                    padding: 0px;
+                    margin: 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: white;
+                    .menu{
+                        list-style: none;
+                        padding: 0px;
+                        margin:0px;
+                        margin-left: 25%;
+                        display: flex;
+                        font-family: $letraMon;
+                        font-weight: bold;
+                        a{
+                        text-decoration: none;
+                        color: black;
+                        padding: 1rem;
+                        margin-right: 2rem;
+                        margin-left: 2rem;
+                        display: block;
+                        &:hover{
+                            background-color: rgb(236, 236, 236);
+                            font-weight: bold;
+                            transform: scale(1.1,1.1);
+                            color: black;
+                            }
+                        }
+                        li{
+                            &:hover{
+                                ul{
+                                    display: block;
+                                }
+                            }
+                            ul{
+                            list-style: none;
+                            position: absolute;
+                            display: none;
+                            background-color: white;
+                            .oculto{
+                            left: 24%;
+                            li{
+                                text-decoration: none;
+                                background-color: white;
+                                color: black;
+                                font-weight: bold;
+                                padding: 0.7rem;
+                                &:hover{
+                                    color: rgb(216, 216, 216);
+                                        }
+                                
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .iconos{
+                        ul{
+                        list-style: none;
+                        margin: 0px;
+                        padding: 0px;
+                            li{
+                                display: inline-block;
+                                a{
+                                    padding: 1rem;
+                                    margin-right: 2rem;
+                                    margin-left: 2rem;
+                                    display: block;
+                                    width: 5px;
+                                    padding: 0px;
+                                    &:hover{
+                                        background-color: rgb(236, 236, 236);
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                }
+                            }
+                
+                        }
+                    }    
+                }
+        }
+}

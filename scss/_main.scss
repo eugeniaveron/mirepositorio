@@ -1,0 +1,560 @@
+.contenedor{
+        main{
+            .imagen{
+                text-align: center;
+                padding: 0px;
+                margin:0px;
+                top: 0px;
+                .imagen__img{
+                    width: 100%;
+                }
+            }
+            .carteras{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                .carteras__img{
+                    width: 150px;
+                    border: white;
+                    opacity: 1;
+                    &:hover{
+                    opacity: .4;
+                    }
+                }
+                .carteras__nombre{
+                    margin-top: 30px ;
+                    margin-left: 30px;
+                    font-family: $letraMon;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 15PX;
+                }
+                .carteras__precio{
+                    margin-left: 65px;
+                    font-family: $letraMon;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 13px;
+                }
+                }
+                .bs{
+                    .bs__titulo{
+                        margin-right: 10%;
+                        .bs__sofia{
+                        font-size: 16px;
+                        color:black(196, 46, 46);
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-right: 10%;
+                        margin-left: 10%;
+                        }
+                    }
+                    .bs__imagen{
+                        display: grid;
+                        justify-items: end;
+                        .bs__imagen__img{
+                            display: grid;
+                            }
+                        }
+                    .bs__carousel{
+                        margin-right: 10%;
+                        display: grid;
+                        justify-content: center;
+                        position: relative;
+                        z-index: 1000;
+                    }
+                }
+                .i{
+                    background-color: white;
+                    .i__titulo{
+                        background-color: #edd0ad;
+                        width: 100%;
+                        text-align: left;
+                        margin-bottom: 0%;
+                        margin-top: 3%;
+                        .i__follow{
+                            font-size: 16px;
+                            color:black;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: bold;
+                            margin-left: 10px;
+                        }
+                    }
+                    .i__ins{
+                        display: grid;
+                        grid-template-columns: repeat(6,1fr);
+                        margin-top:0%;
+                        margin-bottom: 8%;
+                        padding-top: 0%;
+                        grid-gap:2px;
+                        padding: 5px;
+                        background-color: white(84, 226, 19);
+                        width: 100%;
+                        .i__img{
+                            background-color: white;
+                            opacity: 1;
+                            margin: 0px;
+                            width: 100%;
+                            &:hover{
+                                opacity: .8;
+                            }
+                        }
+                    }
+                }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .contenedor{
+            background-color: white;
+            header{
+                nav{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    background-color: white;
+                    .menu{ 
+                        padding: 0px;
+                        margin:0px;
+                        margin-left: 0%;
+                        li{
+                            
+                            a{
+                                margin: 0%;
+                                font-size: 10px;
+                                ul{
+                                    .oculto{
+                                    left: 1%;
+                                        }
+                                    }
+                                }
+                            
+                            }     
+                        }
+                    .iconos{
+                            margin-left: 70%;
+                            margin-top: -5%;
+                            ul{
+                            list-style: none;
+                            margin: 0px;
+                            padding: 0px;
+                            
+                                li{
+                                    display: inline-block;
+                                    a{
+                                        img{
+                                            width: 15px;
+                                            height: 15px;
+                                        }
+                                        padding: 0rem;
+                                        margin-right: 20px;
+                                        margin-left: 0rem;
+                                        display: block;
+                                        padding: 0px;
+                                        &:hover{
+                                            background-color: rgb(236, 236, 236);
+                                            width: 5px;
+                                            height: 5px;
+                                        }
+                                    }
+                                }
+                            }    
+                        }
+                    }    
+                }
+            main{
+                .carteras{
+                    .carteras__img{
+                        width: 60%;
+                        margin-left: 20%;
+                        margin-right: 20%;
+                    }
+                    .carteras__nombre{
+                        margin-left: 35%;
+                    }
+                    .carteras__precio{
+                        margin-left: 45%;
+                    }
+                }
+                .bs{
+                    display: grid;
+                    grid-template-areas: "imagen"
+                                         "titulo"
+                                         "carousel";
+                    grid-template-columns: 1fr;
+                    width: 100%;
+                    .bs__imagen{
+                        grid-area: imagen;
+                        img{
+                        width: 100%;
+                        }
+                    }
+                    .bs__titulo{
+                        grid-area: titulo;
+                        margin-left:0px; 
+                        font-weight: bolder;
+                        background-color: black;
+                        width: 100%;
+                        .bs__sofia{
+                            color: white;
+                            font-size: 12px;
+                        }
+                    }
+                    .bs__carousel{
+                        grid-area: carousel;
+                        width: 100%;
+                        margin-left: 0%;
+                    }
+                }
+                .i{
+                    background-color: white;
+                    .i__titulo{
+                        .i__follow{
+                            font-size: 10px;
+                        }
+                    }
+                    .i__ins{
+                        
+                        display: grid;
+                        grid-template-columns: repeat(3,1fr);
+                        margin-top:0%;
+                        margin-bottom: 5%;
+                        background-color: white;
+                        .i__img{
+                            opacity: 1;
+                            margin-bottom: 10px;
+                            padding: 0%;
+                            background-color: white;
+                            }
+                        }
+                }
+                .whatsapp{
+                    position: fixed;
+                    bottom: 10px;
+                    right: 10px;
+                    overflow: hidden;
+                    padding: 5px;
+                    .whatsapp__img{
+                        width: 40px;
+                    }
+                }
+            }
+            footer{
+                grid-area: footer;
+                width: 100%;
+                
+                .ft{
+                    display: flex;
+                    flex-direction: column;
+                    padding-bottom: 5%;
+                    .ft__sus{
+                        display: grid;
+                        justify-content: center;
+                        margin-top: 5%;
+
+                        
+                    .ft__new{
+                        .ft__new-titulo{
+                            display: flex;
+                            text-align: center;
+                            font-size: 13px;
+                            margin-left: 30%;
+                        }
+                        .ft__suscribite{
+                            display: flex;
+                            font-size: 10px;
+                            margin-right: 3%;
+                        }
+                    }
+                        .ft__m{
+                            display: flex;
+                            margin-right: 15%;
+                        }
+                    }
+                    
+                    .ft__fs{
+            
+                        .ft__titulo{
+                            margin-right: -10%;
+                            font-size: 13px;
+                            display: none;
+                        }
+                        
+                    }
+                    .ft__social{
+                                
+                                display: flex;
+                                justify-content: space-evenly;
+                                margin-top: 2%;
+                                width: 100%;
+                                img{
+                                    display: flex;
+                                    padding: 5%;   
+                                }
+                     
+                    }
+                    .ft__info{
+                        display: flex;
+                        width: 100%;
+                        margin-right: 10%;
+                        margin-top: 3%;
+                        justify-content: center;
+                        .ft__ul{
+                            
+                            .ft__li{
+                                
+                                .ft__a{
+                                .ft__li-contacto{
+                                    font-size: 12px;
+                                    margin-bottom: 0px;
+                                }
+                                .ft__li-pf{
+                                    font-size: 12px;
+                                    margin-left: -30% ;
+                                    margin-bottom: 0px;
+                                    }
+                                .ft__li-legales{
+                                    font-size: 12px;
+                                    margin-bottom: 0px;
+                                }
+                                }
+                            }
+                        }
+                    .pie{
+                        .pie__p{
+                            font-size: 12px;
+                        }
+                    }
+                        
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1300px){
+    .contenedor{
+            background-color: white;
+            header{
+                nav{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    height: auto;
+                    background-color: white; 
+                    .menu{ 
+                        padding: 0px;
+                        margin:0px;
+                        margin-left: 0%;
+                        margin-bottom: 3px;
+                        li{ 
+                            a{
+                                margin: 0%;
+                                font-size: 13px;
+                                ul{
+                                    .oculto{
+                                    left: 1%;
+                                        }
+                                    }
+                                }
+                            
+                            }     
+                        }
+                    .iconos{
+                            margin-left: 70%;
+                            margin-top: -45px;
+                            margin-bottom: 10px;
+                            ul{
+                            list-style: none;
+                            margin: 0px;
+                            padding: 0px;
+                            
+                                li{
+                                    display: inline-block;
+                                    
+                                    a{
+                                        img{
+                                            width: 15px;
+                                            height: 15px;
+                                        }
+                                        padding: 0rem;
+                                        margin-right: 20px;
+                                        margin-left: 0rem;
+                                        display: block;
+                                        padding: 0px;
+                                        &:hover{
+                                            background-color: rgb(236, 236, 236);
+                                            width: 5px;
+                                            height: 5px;
+                                        }
+                                    }
+                                }
+                            }    
+                        }
+                    }    
+                }
+                main{
+                .i{
+                    .i__titulo{
+                        background-color: #edd0ad;
+                        width: 100%;
+                        text-align: left;
+                        margin-bottom: 0%;
+                        margin-top: 3%;
+                        .i__follow{
+                            font-size: 12px;
+                            color: black;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: bold;
+                            margin-left: 13px;
+                        }
+                    }
+                }
+                .bs{
+                    .bs__titulo{
+                        margin-right: 10%;
+                        .bs__sofia{
+                        font-size: 16px;
+                        color:black(196, 46, 46);
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-right: 10%;
+                        margin-left: 10%;
+                        }
+                    }
+                    .bs__imagen{
+                        .bs__imagen__img{
+                                width: 350px;
+                            }
+                    }
+                    .bs__carousel{
+                        margin-right: 10%;
+                        display: grid;
+                        justify-content: center;
+                        position: relative;
+                        z-index: 1000;
+                        }
+                    }
+                }
+                .ft{
+                    align-items: center;
+                    background-color: black;
+                    margin-top: -7%;
+                    padding-top: 0%;
+                    .ft__sus{
+                        margin-left: 10%;
+                        margin-top: 3px;
+                        .ft__new{
+                            margin-top: 10px
+                        }
+                        .ft__new-titulo{
+                            display: grid;
+                            margin-left: 20%;
+                            justify-content: start;
+                            font-weight: bold;
+                            font-family: 'Montserrat', sans-serif;
+                            color: white;
+                            font-size: 13px;
+                        }
+                        .ft__suscribite{
+                            display: grid;
+                            margin-left: 2%;
+                            margin-right: 28%;
+                            margin-top: 1%;
+                            color: white;
+                            font-size: 10PX;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: bold;
+                            
+                        }
+                        .ft__m{
+                            display: grid;
+                            justify-content: left;
+                            color: white;
+                            font-family: 'Montserrat', sans-serif;
+                            margin-left: 2%;
+                            margin-right: 29%;
+                            margin-bottom: 5%;
+                        }
+                    }
+                    .ft__info{
+                        justify-content: right;
+                        margin-left: 25%;
+                        .ft__ul{
+                            list-style: none;
+                            .ft__li{
+                                margin-top:10% ;
+                                display: flex;
+                                flex-direction: column-reverse;
+                            .ft__a{
+                                    text-decoration: none;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    .ft__li-contacto{
+                                    color: white;
+                                    font-family: $letraMon;
+                                    font-size: 12px;
+                                    font-weight: bold;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    }
+                                    .ft__li-pf{
+                                    color: white(100, 25, 25);
+                                    font-family: $letraMon;
+                                    font-size: 12px;
+                                    font-weight: bold;
+                                    text-align: center;
+                                    padding: 0px;
+                                    margin-left: -50%;
+                                    }
+                                    .ft__li-legales{
+                                    color: white;
+                                    font-family: $letraMon;
+                                    font-size: 12px;
+                                    font-weight: bold;
+                                    margin-left: 2%;
+                                    }
+                                }
+                            }
+                        }
+                        
+        
+                        }
+                        .ft__fs{
+                            display: grid;
+                            justify-content: center;
+                            margin-top: 3%;
+                            .ft__titulo{
+                            display: grid;
+                            justify-content: center;
+                            font-family: $letraMon;
+                            font-size: 13px;
+                            font-weight: bold;
+                            margin-left: 0%;
+                            margin-top: -5%;
+                            color: white;
+                            }
+                        }       
+                        .ft__social{
+                            display: flex;
+                            justify-content: space-evenly;
+                            margin-top: -5%;
+                        }
+                    
+                .pie{
+                    background-color: rgb(218, 216, 216);
+                    .pie__p{
+                        font-family: 'Spectral SC', serif;
+                        text-align: center;
+                        color: rgb(84, 85, 85);
+                        font-size: 20px;
+                    }
+                }   
+            } 
+        }
+    }

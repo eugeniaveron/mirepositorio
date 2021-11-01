@@ -1,0 +1,234 @@
+.accesorios{
+    display: flex;
+    flex-direction: row;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    .filtrore{
+        display: none;
+    }
+    .filtro{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        margin-left: 2%;
+        margin-top: 10%;
+        font-family: $letraMon;
+        .acordionf{
+            width: 250px;
+            .botonf{
+                color: black;
+            }
+            .color{
+                display: flex;
+                margin-bottom: 3%;
+                margin-top: 1%;
+                .color1{
+                width: 20px;
+                height: 20px;
+                border-radius: 30px;
+                margin-right: 10px;
+                margin-top: 18px;
+                background-color: #d4b369;
+                }
+                .color2{
+                    @extend .color1;
+                    background-color: $colorRosa;
+                }
+                
+                .color3{
+                    @extend .color1;
+                    background-color: black;
+                }
+                .color4{
+                    @extend .color1;
+                    background-color: #bab9b3;
+                }
+               
+                } 
+            }
+        }
+    }
+    .accesoriosi{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        
+    img{
+        width: 250px;
+        border: 1px #000000;
+        margin: 45px;
+        margin-right: 90px;
+        padding-left: 0%;
+    }
+    h4{
+        font-family: $letraMon;
+        font-weight: bold;
+        color: black;
+        margin-top: -50px;
+        margin-left: 105px;
+        font-size: 15px;
+    }
+    h5{
+        font-family: $letraMon;
+        font-weight: bold;
+        color: black;
+        margin-left: 150px;
+        font-size: 13PX;
+        }
+    }
+    .whatsapp{
+        position: fixed;
+        bottom: 20px;
+        right: -70px;
+        overflow: hidden;
+        padding: 5px;
+        .whatsapp__img{
+            width: 40px;
+        }
+    }
+
+
+@media only screen and (max-width: 858px){
+    .contenedor{
+        .accesorios{
+            .filtro{
+                display: none;
+                
+            }
+            .filtrore{
+                display: block;
+                margin-top: 10%;
+                .acordeonf{
+                    width: 100%;
+                    position: absolute;
+                    font-family: $letraMon;
+                    .color{
+                        display: flex;
+                        margin-bottom: 3%;
+                        margin-top: 1%;
+                        .color1{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 30px;
+                        margin-right: 10px;
+                        margin-top: 18px;
+                        background-color: #d4b369;
+                        }
+                        .color2{
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 30px;
+                            margin-right: 10px;
+                            margin-top: 18px;
+                            background-color: $colorRosa;
+                        }
+                        
+                        .color3{
+                            width: 20px;
+                        height: 20px;
+                        border-radius: 30px;
+                        margin-right: 10px;
+                        margin-top: 18px;
+                            background-color: black;
+                        }
+                        .color4{
+                            width: 20px;
+                        height: 20px;
+                        border-radius: 30px;
+                        margin-right: 10px;
+                        margin-top: 18px;
+                            background-color: #bab9b3;
+                        }     
+                    }
+                }          
+            }
+            .accesoriosi{
+                margin-top: 12%;
+                justify-content: center;
+                img{
+                    width: 300px;
+                }
+                h4{
+                    margin-left: 125px;
+                }
+                h5{
+                    margin-left: 175px;
+                }
+            }
+            .whatsapp{
+                position: fixed;
+                bottom: 10px;
+                right: -90px;
+                overflow: hidden;
+                padding: 5px;
+                .whatsapp__img{
+                    width: 40px;
+                }
+            }
+        }    
+    }
+    
+}
+
+@media only screen and (min-width: 858px) and (max-width: 1024px){
+    .contenedor{
+        .accesorios{
+            .accesoriosi{
+                margin-left: 25%;
+                margin-right: 0%;
+                margin-top: 5%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            img{
+                width: 250px;
+                border: 1px #000000;
+                margin: 5px;
+                margin-right: 0px;
+                padding-left: 0%;
+            }
+            h4{
+                font-family: $letraMon;
+                font-weight: bold;
+                color: black;
+                margin-top: -20px;
+                margin-left: 60px;
+                font-size: 15px;
+            }
+            h5{
+                font-family: $letraMon;
+                font-weight: bold;
+                color: black;
+                margin-left: 115px;
+                font-size: 13PX;
+                }
+            }
+            .filtro{
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 2%;
+                    margin-top: 10%;
+                    font-family: $letraMon;
+                    .acordionf{
+                        width: 250px;
+                    }
+            }
+            .filtrore{
+                display: none;
+            }
+            .whatsapp{
+            position: fixed;
+                bottom: 10px;
+                right: 25px;
+                overflow: hidden;
+                .whatsapp__img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+    
+} 

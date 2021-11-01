@@ -1,0 +1,42 @@
+.bs{
+    display: grid;
+    grid-template-areas: "bs__imagen bs__titulo"
+                     "bs__imagen bs__carousel"
+                     "i i ";
+    grid-template-columns: 6fr 6fr;
+}
+.bs__imagen{
+    grid-area: bs__imagen;
+}
+
+.bs__titulo{
+    grid-area: bs__titulo;
+}
+.bs__carousel{
+    grid-area: bs__carousel;
+}
+.i{
+    grid-area: i;
+}
+.ft{
+    display: grid;
+    grid-template-areas: "ft__sus ft__fs ft__info"
+                        "ft__sus ft__social ft__info";
+    grid-template-columns: 4fr 4fr 4fr;
+    
+}
+.ft__sus{
+    grid-area:ft__sus;
+}
+
+.ft__info{
+    grid-area:ft__info;
+}
+
+
+.ft__fs{
+    grid-area:ft__fs;
+}
+.ft__social{
+    grid-area:ft__social;
+}

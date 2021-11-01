@@ -1,0 +1,41 @@
+@mixin cajas($grid){
+    grid-area:$grid;
+    h6{
+        font-family: $letraMon;
+        font-size: 15px;
+        color:$colorLetra;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    hr{
+        margin-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    h5{
+        margin-bottom: 3%;
+        font-family: $letraMon;
+        font-size: 15px;
+        margin-top: 3%;
+        font-weight: bold;
+    }   
+    p{
+        font-family: $letraMon;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0%;
+        color: rgb(34, 34, 34);
+    }
+}
+
+@mixin letras($fontsize, $letters, $decoration){
+    font-size: $fontsize;
+    letter-spacing: $letters;
+    text-decoration: $decoration;
+    font-family: $letraMon;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-weight: bold;
+    
+}
+

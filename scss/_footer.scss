@@ -1,0 +1,107 @@
+.contenedor{
+        .ft{
+            align-items: center;
+            background-color: black;
+            margin-top: -7%;
+            padding-top: 0%;
+            .ft__sus{
+                margin-left: 10%;
+                margin-top: 3px;
+                .ft__new{
+                    margin-top: 10px
+                }
+                .ft__new-titulo{
+                    display: grid;
+                    margin-left: 20%;
+                    justify-content: start;
+                    font-weight: bold;
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    font-size: 15px;
+                }
+                .ft__suscribite{
+                    display: grid;
+                    margin-left: 0%;
+                    margin-top: 1%;
+                    color: white;
+                    font-size: 13PX;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    
+                }
+                .ft__m{
+                    display: grid;
+                    justify-content: left;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    margin-left: 9%;
+                }
+            }
+            .ft__info{
+                justify-content: right;
+                margin-left: 25%;
+                .ft__ul{
+                    list-style: none;
+                    .ft__li{
+                        margin-top:10% ;
+                        display: flex;
+                        flex-direction: column-reverse;
+                    .ft__a{
+                            text-decoration: none;
+                            .ft__li-contacto{
+                            color: white;
+                            font-family: $letraMon;
+                            font-size: 15px;
+                            font-weight: bold;
+                            }
+                            .ft__li-pf{
+                            color: white;
+                            font-family: $letraMon;
+                            font-size: 15px;
+                            font-weight: bold;
+                            margin-left: -16%;
+                            }
+                            .ft__li-legales{
+                            color: white;
+                            font-family: $letraMon;
+                            font-size: 15px;
+                            font-weight: bold;
+                            margin-left: 2%;
+                            }
+                        }
+                    }
+                }
+                
+
+                }
+                .ft__fs{
+                    display: grid;
+                    justify-content: center;
+                    margin-top: 3%;
+                    .ft__titulo{
+                    display: grid;
+                    justify-content: center;
+                    font-family: $letraMon;
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin-left: 0%;
+                    margin-top: -5%;
+                    color: white;
+                    }
+                }       
+                .ft__social{
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: -5%;
+                }
+            }
+        .pie{
+            background-color: rgb(218, 216, 216);
+            .pie__p{
+                font-family: 'Spectral SC', serif;
+                text-align: center;
+                color: rgb(84, 85, 85);
+                font-size: 15px;
+            }
+        }
+}

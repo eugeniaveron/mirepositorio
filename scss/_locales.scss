@@ -1,0 +1,175 @@
+.locales{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    .mapa{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        overflow: hidden;
+    }
+    .ubicacion{
+        padding-left: 8%;
+        padding-top: 1%;
+        padding-right: 5%;
+        width: 500px;
+        height: 500px;
+        overflow: auto;
+        .nombre{
+            margin-bottom: 5%;
+            h5{
+                display: inline-block;
+                font-family: $letraMon;
+                color: black;
+                font-size: 14px;
+                font-weight: bold;
+                
+                
+            }
+        }
+        .direccion{
+            p{
+                font-family: $letraMon;
+                color: rgb(34, 34, 34);
+                padding: 0px;
+                font-size: 13px;
+                margin: 0%;
+                
+            }
+        }   
+        .el{
+            
+            background-color: $colorRosa;
+            padding-bottom: 0%;
+            margin-bottom:  3%;
+            width: 100%;
+            text-align: center;
+            h4{
+                margin-left: 0%;
+                font-size: 15px;
+                font-family: $letraMon;
+                font-weight: bolder;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .contenedor{
+        .locales{
+            display: flex;
+            flex-direction: column;
+            
+            .mapa{
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                margin-right: 5%;
+                margin-bottom: 10%;
+            }
+            .ubicacion{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                overflow: auto;
+                margin-bottom: 5%;
+                margin-top: 5%;
+                .nombre{
+                    margin-bottom: 5%;
+                    h5{
+                        display: inline-block;
+                        font-family: $letraMon;
+                        color: black;
+                        font-size: 14px;
+                        font-weight: bold;
+                        
+                    }
+                }
+                .direccion{
+                    p{
+                        font-family: $letraMon;
+                        color: rgb(34, 34, 34);
+                        padding: 0px;
+                        font-size: 13px;
+                        margin: 0%;
+                        
+                    }
+                }   
+                .el{
+                    
+                    background-color: $colorRosa;
+                    padding-bottom: 0%;
+                    margin-bottom:  3%;
+                    text-align: center;
+                    h4{
+                        margin-left: 0%;
+                        font-size: 15px;
+                        font-family: $letraMon;
+                        font-weight: bolder;
+                    }
+                }
+        
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    .contenedor{
+        background-color: aquamarine;
+        .locales{
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+            .mapa{
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                margin-right: 5%;
+                margin-bottom: 10%;
+            }
+            .ubicacion{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                overflow: auto;
+                margin-bottom: 5%;
+                .nombre{
+                    margin-bottom: 5%;
+                    h5{
+                        display: inline-block;
+                        font-family: $letraMon;
+                        color: black;
+                        font-size: 14px;
+                        font-weight: bold;
+                        
+                    }
+                }
+                .direccion{
+                    p{
+                        font-family: $letraMon;
+                        color: rgb(34, 34, 34);
+                        padding: 0px;
+                        font-size: 13px;
+                        margin: 0%;
+                        
+                    }
+                }   
+                .el{
+                    background-color: $colorRosa;
+                    padding-bottom: 0%;
+                    margin-bottom:  3%;
+                    h4{
+                        margin-left: 0%;
+                        font-size: 15px;
+                        font-family: $letraMon;
+                        font-weight: bolder;
+                        padding-top: 5px;
+                    }
+                }
+        
+            }
+        }
+    }
+}
