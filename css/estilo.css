@@ -1012,80 +1012,93 @@
       font-size: 13PX; }
 
 @media only screen and (max-width: 882px) {
-  .contenedor .demano .filtro {
-    display: none; }
-  .contenedor .demano .filtrore {
-    display: block;
-    margin-top: 10%; }
-    .contenedor .demano .filtrore .acordeonf {
+  .contenedor .demano {
+    display: flex;
+    background-color: white; }
+    .contenedor .demano .filtro {
+      display: none; }
+    .contenedor .demano .filtrore {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10%; }
+      .contenedor .demano .filtrore .acordeonf {
+        width: 100%;
+        position: absolute;
+        font-family: "Montserrat", sans-serif; }
+        .contenedor .demano .filtrore .acordeonf .color {
+          display: flex;
+          margin-bottom: 3%;
+          margin-top: 1%; }
+          .contenedor .demano .filtrore .acordeonf .color .color1, .contenedor .demano .filtrore .acordeonf .container .seccion3 .color .color2, .container .seccion3 .contenedor .demano .filtrore .acordeonf .color .color2, .contenedor .demano .filtrore .acordeonf .container .seccion3 .color .color3, .container .seccion3 .contenedor .demano .filtrore .acordeonf .color .color3, .contenedor .demano .filtrore .acordeonf .container .seccion3 .color .color4, .container .seccion3 .contenedor .demano .filtrore .acordeonf .color .color4, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color2, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color2, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color3, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color3, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color4, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color4, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color5, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color5, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color6, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color6, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color7, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color7, .zapatos .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color2, .zapatos .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color3, .zapatos .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color4, .accesorios .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color2, .accesorios .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color3, .accesorios .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color4 {
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-top: 18px;
+            background-color: #9ec2bf; }
+          .contenedor .demano .filtrore .acordeonf .color .color2 {
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-top: 18px;
+            background-color: #edd0ad; }
+          .contenedor .demano .filtrore .acordeonf .color .color3 {
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-top: 18px;
+            background-color: black; }
+          .contenedor .demano .filtrore .acordeonf .color .color4 {
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-top: 18px;
+            background-color: #ff3100; }
+          .contenedor .demano .filtrore .acordeonf .color .color5 {
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-top: 18px;
+            background-color: #446c86; }
+          .contenedor .demano .filtrore .acordeonf .color .color6 {
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-top: 18px;
+            background-color: #1d5521; }
+          .contenedor .demano .filtrore .acordeonf .color .color7 {
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-top: 18px;
+            background-color: #c45125; }
+    .contenedor .demano .carteras {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
       width: 100%;
-      position: absolute;
-      font-family: "Montserrat", sans-serif; }
-      .contenedor .demano .filtrore .acordeonf .color {
-        display: flex;
-        margin-bottom: 3%;
-        margin-top: 1%; }
-        .contenedor .demano .filtrore .acordeonf .color .color1, .contenedor .demano .filtrore .acordeonf .container .seccion3 .color .color2, .container .seccion3 .contenedor .demano .filtrore .acordeonf .color .color2, .contenedor .demano .filtrore .acordeonf .container .seccion3 .color .color3, .container .seccion3 .contenedor .demano .filtrore .acordeonf .color .color3, .contenedor .demano .filtrore .acordeonf .container .seccion3 .color .color4, .container .seccion3 .contenedor .demano .filtrore .acordeonf .color .color4, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color2, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color2, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color3, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color3, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color4, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color4, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color5, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color5, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color6, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color6, .contenedor .demano .filtrore .acordeonf .filtro .acordionf .color .color7, .contenedor .demano .filtro .acordionf .filtrore .acordeonf .color .color7, .zapatos .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color2, .zapatos .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color3, .zapatos .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color4, .accesorios .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color2, .accesorios .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color3, .accesorios .filtro .acordionf .contenedor .demano .filtrore .acordeonf .color .color4 {
-          width: 20px;
-          height: 20px;
-          border-radius: 30px;
-          margin-right: 10px;
-          margin-top: 18px;
-          background-color: #9ec2bf; }
-        .contenedor .demano .filtrore .acordeonf .color .color2 {
-          width: 20px;
-          height: 20px;
-          border-radius: 30px;
-          margin-right: 10px;
-          margin-top: 18px;
-          background-color: #edd0ad; }
-        .contenedor .demano .filtrore .acordeonf .color .color3 {
-          width: 20px;
-          height: 20px;
-          border-radius: 30px;
-          margin-right: 10px;
-          margin-top: 18px;
-          background-color: black; }
-        .contenedor .demano .filtrore .acordeonf .color .color4 {
-          width: 20px;
-          height: 20px;
-          border-radius: 30px;
-          margin-right: 10px;
-          margin-top: 18px;
-          background-color: #ff3100; }
-        .contenedor .demano .filtrore .acordeonf .color .color5 {
-          width: 20px;
-          height: 20px;
-          border-radius: 30px;
-          margin-right: 10px;
-          margin-top: 18px;
-          background-color: #446c86; }
-        .contenedor .demano .filtrore .acordeonf .color .color6 {
-          width: 20px;
-          height: 20px;
-          border-radius: 30px;
-          margin-right: 10px;
-          margin-top: 18px;
-          background-color: #1d5521; }
-        .contenedor .demano .filtrore .acordeonf .color .color7 {
-          width: 20px;
-          height: 20px;
-          border-radius: 30px;
-          margin-right: 10px;
-          margin-top: 18px;
-          background-color: #c45125; }
-  .contenedor .demano .carteras {
-    margin-top: 12%;
-    justify-content: center;
-    width: 100%; }
-  .contenedor .demano .whatsapp {
-    position: fixed;
-    bottom: 10px;
-    right: 0px;
-    overflow: hidden;
-    padding: 5px; }
-    .contenedor .demano .whatsapp .whatsapp__img {
-      width: 40px; } }
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 5%;
+      margin-top: 15%; }
+      .contenedor .demano .carteras img {
+        margin: 0px;
+        width: 300px; }
+    .contenedor .demano .whatsapp {
+      position: fixed;
+      bottom: 10px;
+      right: 0px;
+      overflow: hidden;
+      padding: 5px; }
+      .contenedor .demano .whatsapp .whatsapp__img {
+        width: 40px; } }
 
 @media only screen and (min-width: 882px) and (max-width: 1024px) {
   .contenedor .demano .carteras {
