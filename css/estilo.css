@@ -961,7 +961,8 @@
           color: white;
           text-align: center;
           font-weight: bold;
-          padding-top: 5px;
+          padding-top: 10px;
+          padding-bottom: 10px;
           background: #575757;
           background: linear-gradient(0deg, #575757 0%, #1a1b1a 64%); }
           .container .seccion3 .carrito a h6:hover {
@@ -1650,7 +1651,8 @@
           font-family: "Montserrat", sans-serif;
           border-radius: 0px;
           font-weight: bold;
-          font-size: 13px; }
+          font-size: 13px;
+          background-color: #252525; }
     .contenedor main .carteras {
       display: flex;
       margin: 0px;
