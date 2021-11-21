@@ -56,27 +56,34 @@
         margin-bottom: 5%;
         justify-content: space-evenly;
         
-    img{
-        width: 250px;
-        border: 1px #000000;
-        margin: 20px;
-        margin-right: 10px;
-        padding-left: 0%;
-    }
-    h4{
-        font-family: $letraMon;
-        font-weight: bold;
-        color: black;
-        margin-top: -45px;
-        margin-left: 80px;
-        font-size: 15px;
-    }
-    h5{
-        font-family: $letraMon;
-        font-weight: bold;
-        color: black;
-        margin-left: 130px;
-        font-size: 13PX;
+        img{
+            width: 250px;
+            border: 1px #000000;
+            margin: 20px;
+            margin-right: 10px;
+            padding-left: 0%;
+            opacity: 1;
+                &:hover{
+                    opacity: .4;
+                }
+            }
+        .descripcionAccesorios{
+            position: absolute;
+            h4{
+                font-family: $letraMon;
+                font-weight: bold;
+                color: black;
+                margin-top: -45px;
+                margin-left: 80px;
+                font-size: 15px;
+            }
+            h5{
+                font-family: $letraMon;
+                font-weight: bold;
+                color: black;
+                margin-left: 130px;
+                font-size: 13PX;
+                }
         }
     }
     .whatsapp{
@@ -95,8 +102,7 @@
     .contenedor{
         .accesorios{
             .filtro{
-                display: none;
-                
+                display: none;     
             }
             .filtrore{
                 display: block;
@@ -162,16 +168,7 @@
                     margin-left: 150px;
                 }
             }
-            .whatsapp{
-                position: fixed;
-                bottom: 10px;
-                right: -90px;
-                overflow: hidden;
-                padding: 5px;
-                .whatsapp__img{
-                    width: 40px;
-                }
-            }
+            
         }    
     }
     
@@ -223,15 +220,7 @@
             .filtrore{
                 display: none;
             }
-            .whatsapp{
-            position: fixed;
-                bottom: 10px;
-                right: 25px;
-                overflow: hidden;
-                .whatsapp__img{
-                    width: 40px;
-                }
-            }
+            
         }
     }
     

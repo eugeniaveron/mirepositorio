@@ -65,46 +65,64 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    img{
-        width: 250px;
-        border: 1px #000000;
-        margin: 20px;
-        margin-right: 90px;
-        padding-left: 0%;
-    }
-    h4{
-        font-family: $letraMon;
-        font-weight: bold;
-        color: black;
-        margin-top: -50px;
-        margin-left: 70px;
-        font-size: 15px;
-    }
-    h5{
-        font-family: $letraMon;
-        font-weight: bold;
-        color: black;
-        margin-left: 135px;
-        font-size: 13PX;
+        .caja{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            justify-content: space-around;
+            img{
+                display: block;
+                width: 250px;
+                border: 1px #000000;
+                opacity: 1;
+                &:hover{
+                    opacity: .4;
+                }
+            }
+            .descripcion{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                top: 95%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                
+                h4{
+                    font-family: $letraMon;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 15px;
+                    
+                }
+                h5{
+                    font-family: $letraMon;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 13px;
+                    }
+                }
         }
     }
 }
 
-@media only screen and (max-width: 882px){
-    
-    .contenedor{
-        
+@media only screen and (max-width: 882px){    
+    .contenedor{        
         .demano{
             display: flex;
             background-color: white;
             .filtro{
-                display: none;
-                
+                display: none;                
             }
             .filtrore{
                 display: flex;
                 flex-direction: row;
                 margin-top: 10%;
+                z-index: 1001;
                 .acordeonf{
                     width: 100%;
                     position: absolute;
@@ -128,8 +146,7 @@
                             margin-right: 10px;
                             margin-top: 18px;
                             background-color: $colorRosa;
-                        }
-                        
+                        }                        
                         .color3{
                             width: 20px;
                         height: 20px;
@@ -175,35 +192,48 @@
             }
             .carteras{
                 display: flex;
+                margin: 0px;
+                margin-top: 18%;
+                margin-bottom: 10%;
+                justify-content: space-evenly;
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content: center;
-                width: 100%;
-                margin-left: 0%;
-                margin-right: 0%;
-                margin-bottom: 5%;
-                margin-top: 15%;
-                img{
-                    margin: 0px;
-                    width: 300px;
-                }
-            }
-            .whatsapp{
-                position: fixed;
-                bottom: 10px;
-                right: 0px;
-                overflow: hidden;
-                padding: 5px;
-                .whatsapp__img{
-                    width: 40px;
-                }
+                z-index: 1000;
+                    img{
+                        margin: 0px;
+                        width: 250px;
+                        height: 250px;
+                    }                
+                .descripcion{
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    justify-content: center;
+                    top: 100%;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;                    
+                    h4{
+                        font-family: $letraMon;
+                        font-weight: bold;
+                        color: black;
+                        font-size: 15px;                        
+                    }
+                    h5{
+                        font-family: $letraMon;
+                        font-weight: bold;
+                        color: black;
+                        font-size: 13px;
+                        }
+                    }
             }
         }    
     }
     
 }
 
-@media only screen and (min-width: 882px) and (max-width: 1024px){
+@media only screen and (min-width: 882px) and (max-width: 1140px){
     
     .contenedor{
         .demano{
@@ -221,20 +251,29 @@
                 margin-right: 0px;
                 padding-left: 0%;
             }
-            h4{
-                font-family: $letraMon;
-                font-weight: bold;
-                color: black;
-                margin-top: -50px;
-                margin-left: 70px;
-                font-size: 15px;
-            }
-            h5{
-                font-family: $letraMon;
-                font-weight: bold;
-                color: black;
-                margin-left: 135px;
-                font-size: 13PX;
+            .descripcion{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                top: 100%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                
+                h4{
+                    font-family: $letraMon;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 15px;                    
+                }
+                h5{
+                    font-family: $letraMon;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 13px;
+                    }
                 }
             }
             .filtro{
@@ -250,16 +289,6 @@
             .filtrore{
                 display: none;
             }
-            .whatsapp{
-            position: fixed;
-                bottom: 10px;
-                right: 25px;
-                overflow: hidden;
-                .whatsapp__img{
-                    width: 40px;
-                }
-            }
         }
-    }
-    
+    }    
 } 

@@ -1,8 +1,8 @@
 .bs{
     display: grid;
     grid-template-areas: "bs__imagen bs__titulo"
-                     "bs__imagen bs__carousel"
-                     "i i ";
+                        "bs__imagen bs__carousel"
+                        "i i ";
     grid-template-columns: 6fr 6fr;
 }
 .bs__imagen{

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"  content="zapatos, cuero, diseño, compra, moda, tienda, envío gratis">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords"  content="carteras, zapatos, accesorios, cuero, moda, tendencia, diseño">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Spectral+SC:wght@200&family=Ultra&display=swap" rel="stylesheet">
@@ -14,25 +14,22 @@
         />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>FURLA| Zapatos</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./iconos/favicon-96x96.png">
-    <meta name="description" content="Conocé nuestros catálogo online de zapatos, elegí el tuyo!">
+    <meta name="description" content="Descubrí Furla: carteras, zapatos y accesorios. Visitá nuestra tienda online, realizá tu pedido y recibilo donde quieras!">
+    <title>FURLA| Tienda online</title>     
 </head>
 <body>
     <div class="contenedor">
         <header>
-            <H2 class="animate__animated animate__zoomIn">ENVÍO GRATIS A PARTIR DE $10.000</H2>
+            <div class="enviogratis">
+                <h2 class= "animate__animated animate__zoomIn">ENVÍO GRATIS A PARTIR DE $10.000</h2>
+            </div>
             <div>
                 <a href="index.html"><h1 id="fondoh">FURLA</h1></a>
             </div>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">CARTERAS</a>
-                        <ul class="oculto">
-                            <li><a href="#">BANDOLERAS</a></li>
-                            <li><a href="demano.html">DE MANO</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="demano.html">CARTERAS</a></li>
                     <li><a href="zapatos.html" >ZAPATOS</a></li>
                     <li><a href="accesorios.html">ACCESORIOS</a></li>
                     <li><a href="locales.html">LOCALES</a></li>
@@ -45,6 +42,27 @@
                     </ul>
                 </div>
             </nav>
+            <!-- nav responsive -->
+            <nav class="navbar navbar-light bg-white navr">
+            <div class="container-fluid contenedorr">
+                    <button class="navbar-toggler botonr" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="iconosr">
+                    <a href="#"><img src= "./iconos/lupa.png" alt="Icono lupa" width="20"></a>
+                    <a href="#"><img src="./iconos/bag1.png" alt="Icono cartera" width="23"></a>
+                    <a href="#"><img src="./iconos/usuario.png" alt="Icono usuario" width="20"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="demano.html">CARTERAS</a>
+                        <a class="nav-link" href="zapatos.html">ZAPATOS</a>
+                        <a class="nav-link" href="accesorios.html">ACCESORIOS</a>
+                        <a class="nav-link" href="locales.html">LOCALES</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         </header>
         <main>
             <div class="zapatos">
@@ -141,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <!--Menus filtros responsive-->
+                <!--Menu filtros responsive-->
                 <div class="filtrore">
                     <div class="accordion accordion-flush acordeonf" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -243,75 +261,97 @@
                         </div>
                     </div>
                 </div>
-                <!--Imagenes de zapatos-->
+                <!--Imágenes de zapatos-->
                 <div class="calzado">
                     <div>
-                        <img src="./imagenes/zapatos/z1-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CHAIN</h4>
-                        <h5>$10.900</h5>
+                        <img src="./imagenes/zapatos/zapato1-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CHAIN</h4>
+                            <h5>$10.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z2-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CHAIN</h4>
-                        <h5>$12.900</h5>
+                        <img src="./imagenes/zapatos/zapato2-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CHAIN</h4>
+                            <h5>$10.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z3-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS BLOCK</h4>
-                        <h5>$9900</h5>
+                        <img src="./imagenes/zapatos/zapato3-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS BLOCK</h4>
+                            <h5>$9.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z4-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS BLOCK</h4>
-                        <h5>$9900</h5>
+                        <img src="./imagenes/zapatos/zapato4-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS BLOCK</h4>
+                            <h5>$9.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z5-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$12900</h5>
+                        <img src="./imagenes/zapatos/zapato5-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$12.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z6-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$12900</h5>
+                        <img src="./imagenes/zapatos/zapato6-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$12.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z7-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$12900</h5>
+                        <img src="./imagenes/zapatos/zapato7-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$12.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z8-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$12900</h5>
+                        <img src="./imagenes/zapatos/zapato8-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$12.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z9-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$13900</h5>
+                        <img src="./imagenes/zapatos/zapato9-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$13.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z10-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$11900</h5>
+                        <img src="./imagenes/zapatos/zapato10-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$11.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/z11-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$12900</h5>
+                        <img src="./imagenes/zapatos/zapato11-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$12.900</h5>
+                        </div>
                     </div>
                     <div>
-                        <img src="./imagenes/zapatos/Z12-min.jpg" alt="Imagen zapatos">
-                        <h4>ZAPATOS CODE</h4>
-                        <h5>$12900</h5>
+                        <img src="./imagenes/zapatos/zapato12-min.jpg" alt="Imagen zapatos">
+                        <div class="zapatosDescripcion">
+                            <h4>ZAPATOS CODE</h4>
+                            <h5>$12.900</h5>
+                        </div>
                     </div>
                 </div>
-                <!--icono de whatsapp-->
+                <!--ícono de whatsapp-->
             <div class="whatsapp">
                 <img class="whatsapp__img" src="./iconos/whatsapp.png" alt="icono de whatsapp">
-            </div>
-        
-            
+            </div>   
         </main>
         <footer>
             <!--sección newsletter-->

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"  content="consulta, ayuda, dudas, envios, cambios, devoluciones, como comprar">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords"  content="carteras, zapatos, accesorios, cuero, moda, tendencia, diseño">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Spectral+SC:wght@200&family=Ultra&display=swap" rel="stylesheet">
@@ -15,24 +15,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./iconos/favicon-96x96.png">
-    <title>FURLA| Preguntas Frecuentes</title>
-    <meta name="description" content="Preguntas frecuentes, cómo comprar, envíos, pagos, cambios y devoluciones.">
+    <meta name="description" content="Descubrí Furla: carteras, zapatos y accesorios. Visitá nuestra tienda online, realizá tu pedido y recibilo donde quieras!">
+    <title>FURLA| Tienda online</title>     
 </head>
 <body>
     <div class="contenedor">
         <header>
-            <H2 class="animate__animated animate__zoomIn">ENVÍO GRATIS A PARTIR DE $10.000</H2>
+            <div class="enviogratis">
+                <h2 class= "animate__animated animate__zoomIn">ENVÍO GRATIS A PARTIR DE $10.000</h2>
+            </div>
             <div>
                 <a href="index.html"><h1 id="fondoh">FURLA</h1></a>
             </div>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">CARTERAS</a>
-                        <ul class="oculto">
-                            <li><a href="#">BANDOLERAS</a></li>
-                            <li><a href="demano.html">DE MANO</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="demano.html">CARTERAS</a></li>
                     <li><a href="zapatos.html" >ZAPATOS</a></li>
                     <li><a href="accesorios.html">ACCESORIOS</a></li>
                     <li><a href="locales.html">LOCALES</a></li>
@@ -45,22 +42,44 @@
                     </ul>
                 </div>
             </nav>
+            <!-- nav responsive -->
+            <nav class="navbar navbar-light bg-white navr">
+            <div class="container-fluid contenedorr">
+                    <button class="navbar-toggler botonr" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="iconosr">
+                    <a href="#"><img src= "./iconos/lupa.png" alt="Icono lupa" width="20"></a>
+                    <a href="#"><img src="./iconos/bag1.png" alt="Icono cartera" width="23"></a>
+                    <a href="#"><img src="./iconos/usuario.png" alt="Icono usuario" width="20"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="demano.html">CARTERAS</a>
+                        <a class="nav-link" href="zapatos.html">ZAPATOS</a>
+                        <a class="nav-link" href="accesorios.html">ACCESORIOS</a>
+                        <a class="nav-link" href="locales.html">LOCALES</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         </header>
         <main>
         <!--Menú de opciones-->  
             <div class="preguntas">
                 <div class="enp">
                     <ul>
-                        <li>COMO COMPRAR</li>
-                        <li>STOCK</li>
-                        <li>FORMAS DE PAGO</li>
-                        <li>ENVIO</li>
-                        <li>CAMBIOS Y DEVOLUCIONES</li>
+                        <a href="#comocomprar"><li>COMO COMPRAR</li></a>
+                        <a href="#stock"><li>STOCK</li></a>
+                        <a href="#pago"><li>FORMAS DE PAGO</li></a>
+                        <a href="#envio"><li>ENVÍO</li></a>
+                        <a href="#cambios"><li>CAMBIOS Y DEVOLUCIONES</li></a>
                     </ul>
                 </div>
         <!--Acá empieza la sección de consultas frecuentes-->
-                <div class="cc">
-                    <h6>COMO COMPRAR</h6>
+                <div class="consultas">
+                <div class="cc" >
+                    <h6 id="comocomprar">COMO COMPRAR</h6>
                     <ol>
                         <li>Navegá por las categorías y hacé click sobre el producto que te interese.</li>
                         <li>Hacé click en el botón indicado para agregarlo a tu carrito de compras.</li>
@@ -77,8 +96,8 @@
                     </ol>
                     <div class="linea"></div>
                 </div>    
-                <div class="stock">
-                    <h6>CONSULTAS DE STOCK</h6>
+                <div class="stock" >
+                    <h6 id="stock">CONSULTAS DE STOCK</h6>
                     <h5>¿HAY STOCK DE TODOS LOS PRODUCTOS?</h5>
                     <p>Sí, todos los productos que publicamos están en stock. En caso de agotarse algún talle o color, esa característica se bloqueará</p> 
                     <p>(se verá grisada y no podrás seleccionarla).</P>
@@ -86,10 +105,10 @@
                     <h5>COMPRE Y ME DIJERON QUE NO TIENEN STOCK, ¿QUÉ HAGO?</h5>
                     <p>Esto es inusual, pero nuestro Centro de Atención al Cliente va a contactarse con vos para brindarte una solución. Envíanos un </p> 
                     <p>mail atencionalcliente@furla.com.ar o comunícate a través de nuestro chat online.</p>
-                    <hr>
+                    <div class="linea"></div>
                 </div>    
                 <div class="pagos">
-                    <h6>FORMAS DE PAGO</h6>
+                    <h6 id="pago">FORMAS DE PAGO</h6>
                     <h5>¿CÓMO PUEDO PAGAR?</h5>
                     <p>Poseemos un sistema de cobranza que es 100% seguro. Los números son encriptados y no sufren ningún tipo de amenaza en nuestro </p> 
                     <p> banco de datos, siendo enviados directamente a la administradora de la tarjeta de crédito o débito. </p>
@@ -139,11 +158,10 @@
                     <h5>¿CUÁNDO SE ME DEBITA EL IMPORTE POR MI COMPRA?</h5>
         
                     <p>Si elegiste pagar con tarjeta de crédito, verás el importe descontado en el resumen correspondiente al próximo cierre de</P> <p>tarjeta. Si pagaste con el dinero de tu cuenta en MercadoPago o tarjeta de débito, el débito será inmediato.</p> 
-                    <hr>
-                </div>
-                    
+                    <div class="linea"></div>
+                </div>                    
                     <div class="envios">
-                        <h6>ENVIOS</h6>
+                        <h6 id="envio">ENVÍO</h6>
                             <h5>¿PUEDO RETIRAR MI PEDIDO EN UNA SUCURSAL?, ¿TIENE COSTO DE ENVIO?</h5>
                             <p>Si, podes retirar el pedido por una sucursal sin costo, el pedido estará disponible para retiro a partir de los 7 días hábiles aproximadamente.</p>
                             <p> El local elegido avisará por mail en el momento de su llegada.</p>
@@ -175,47 +193,61 @@
                             <h5>NO RECIBI MI PEDIDO Y YA PASÓ EL PLAZO DE ENTREGA. ¿QUÉ HAGO?</h5>
                             <P>Por favor comunicate con nuestro centro de atención al cliente envianos un mail atencionalcliente@furla.com.ar o a través de nuestro</p>  
                             <p>chat online.</P>
-                        <hr>
-                    </div>
-                        
+                            <div class="linea"></div>
+                    </div>                       
                         <div class="cambios">
-                            <h6>CAMBIOS Y DOVOLUCIONES</h6>
+                            <h6 id="cambios">CAMBIOS Y DEVOLUCIONES</h6>
+                            <div class="espacio">
                             <p>Para realizar cambios de tus compras online de artículos de temporada actual podés acercarte a nuestros locales oficiales abiertos (no </p>
                             <p>incluye locales outlet o franquicias) con el producto en perfecto estado y la factura recibida por email. Otra opción es la gestión online, </p>
                             <p> contactate con nosotros dentro de los 30 días corridos posteriores a la recepción del pedido en: atencionalcliente@furla.com.ar. </p>
+                            </div>
+                            <div class="espacio">
                             <p> Si tu pedido es un regalo vas a encontrar el ticket de cambio dentro del pedido. El cambio se realiza por la misma prenda o el valor abonado.
                             <p>Los cambios se tomarán a precio abonado.</p> 
+                            </div>
+                            <div class="espacio">
                             <p>Para ver nuestros locales autorizados para cambios, podes ir a la sección LOCALES.</p>
+                            </div>
+                            <div class="espacio">
                             <p>En caso de seleccionar la opción de gestión online seguí estos pasos:</p>
-                        
+                            </div>
                             <p>Envianos un mail a atencionalcliente@vfurla.com.ar con asunto "cambio/devolución + nº de pedido" indicando en el cuerpo del mail qué </p>
                             <p> producto querés cambiar o devolver y por qué (cuanto más detalles describas, mejor). Si podés, adjuntanos fotos. Te responderemos con las </p>
                             <p> instrucciones y la documentación para que puedas enviarnos el producto fácilmente.</p>
-                            
+                            <div class="espacio">
                             <p>Pasarán a retirar el producto por tu domicilio. Debes imprimir el ticket de cambio que recibiste via email, y enviarlo junto al producto.</p>
-                            
+                            </div>
+                            <div class="espacio">
                             <p>El seguimiento es de hasta 3 días hábiles, teniendo en cuenta los procesos de sanitización para el cuidado de nuestro staff. Cuando hayamos</p>
                             <p> recibido tu envío te contactaremos para informarte el estado de tu gestión.</p>
-                                
+                            </div>
+                            <div class="espacio">   
                             <p>Los cambios gestionados por atención al cliente se tramitan a través de Andreani.</p>
-                                
+                            </div> 
+                            <div class="espacio">   
                             <p>Las solicitudes de cambio se procesarán por talle o color del mismo artículo, o emitiendo al titular de la compra un voucher con el saldo a favor, válido</p>
                             <p>por el mismo importe para realizar una nueva compra en el sitio, la cual será enviada por mail.</p>
-                            
+                            </div> 
+                            <div class="espacio">
                             <p>El primer cambio es gratuito, pero vale aclarar que el cliente deberá asumir el costo del envío en caso de desear un segundo cambio.</p>
-                            
+                            </div>
+                            <div class="espacio">
                             <p>Daremos prioridad a la realización de un cambio por producto fallado o mal enviado, aún así, el tiempo estimado puede comprender hasta 10 días.</p>
                             <p> Debe tenerse en cuenta que, las devoluciones habituales pueden demorar hasta 15 días hábiles.</p>
-                            
+                            </div>
+                            <div class="espacio">
                             <p> Devolución de dinero: para los casos en los que ocurriera algún imprevisto podemos hacer una devolución del dinero que se realizará siempre por el</p>
-                            <p> mismo medio en que se abonó (MercadoPago). Las mismas son excepcionales, pero siempre que corresponda devolveremos tu dinero. Este proceso</p> 
+                            <p> mismo medio en que se abonó (MercadoPago). Las mismas son excepcionales, pero siempre que corresponda devolveremos tu dinero. Este proceso demora</p> 
                             <p>72hs hábiles aproximadamente.</P>
-                    <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--icono de whatsapp-->
                 <div class="whatsapp">
                     <img class="whatsapp__img" src="./iconos/whatsapp.png" alt="icono de whatsapp">
                 </div>
-            </div>
             </main>
             <footer>
                 <!--sección newsletter-->

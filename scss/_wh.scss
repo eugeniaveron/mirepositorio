@@ -9,3 +9,17 @@
                 width: 40px;
             }
         }
+
+@media only screen and (max-width: 768px){
+    .whatsapp{
+        position: fixed;
+        bottom: 20px;
+        margin-right: -2%;
+        overflow: hidden;
+        padding: 5px;
+        z-index: 1001;
+        .whatsapp__img{
+            width: 40px;
+        }
+    }
+}

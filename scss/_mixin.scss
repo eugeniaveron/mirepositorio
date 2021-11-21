@@ -7,24 +7,62 @@
         font-weight: bold;
         margin-bottom: 25px;
     }
-    hr{
-        margin-right: 20%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+    .linea{
+        border-top: 2px solid rgb(212, 210, 210);
+        height: 1px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 180px; 
     }
     h5{
         margin-bottom: 3%;
         font-family: $letraMon;
         font-size: 15px;
         margin-top: 3%;
-        font-weight: bold;
+        font-weight: bolder;
     }   
     p{
         font-family: $letraMon;
         font-size: 13px;
         font-weight: bold;
         margin: 0%;
-        color: rgb(34, 34, 34);
+        color: rgb(53, 52, 52);
+    }
+    .espacio{
+        margin-bottom: 30px;
+    }
+    #stock::before{
+        display: block; 
+        content: " "; 
+        margin-top: -150px; 
+        height: 150px; 
+        visibility: hidden; 
+        pointer-events: none;
+    }
+    #pago::before{
+        display: block; 
+        content: " "; 
+        margin-top: -160px; 
+        height: 160px; 
+        visibility: hidden; 
+        pointer-events: none;
+    }
+    #envio::before{
+        display: block; 
+        content: " "; 
+        margin-top: -160px; 
+        height: 160px; 
+        visibility: hidden; 
+        pointer-events: none;
+    }
+    #cambios::before{
+        display: block; 
+        content: " "; 
+        margin-top: -160px; 
+        height: 160px; 
+        visibility: hidden; 
+        pointer-events: none;
     }
 }
 
@@ -35,7 +73,6 @@
     font-family: $letraMon;
     margin-left: 0%;
     margin-right: 0%;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 

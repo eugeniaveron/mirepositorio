@@ -37,433 +37,455 @@
 .ft__social {
   grid-area: ft__social; }
 
-.contenedor header {
-  z-index: 1001;
-  position: sticky;
-  top: 0px; }
-  .contenedor header h2 {
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    background-color: white;
-    width: 100%; }
-  .contenedor header a {
-    text-decoration: none; }
-    .contenedor header a #fondoh {
-      background-color: #3a3a3a; }
-    .contenedor header a h1 {
-      color: #fdfbfb;
-      font-weight: bold;
-      letter-spacing: 5px;
-      font-size: 30px;
-      font-family: 'Spectral SC', serif;
-      text-align: center; }
-      .contenedor header a h1:hover {
-        color: #ebe7e7; }
-  .contenedor header nav {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white; }
-    .contenedor header nav .menu {
-      list-style: none;
-      padding: 0px;
-      margin: 0px;
-      margin-left: 25%;
-      display: flex;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold; }
-      .contenedor header nav .menu a {
-        text-decoration: none;
-        color: black;
-        padding: 1rem;
-        margin-right: 2rem;
-        margin-left: 2rem;
-        display: block; }
-        .contenedor header nav .menu a:hover {
-          background-color: #ececec;
-          font-weight: bold;
-          transform: scale(1.1, 1.1);
-          color: black; }
-      .contenedor header nav .menu li:hover ul {
-        display: block; }
-      .contenedor header nav .menu li ul {
-        list-style: none;
-        position: absolute;
-        display: none;
-        background-color: white; }
-        .contenedor header nav .menu li ul .oculto {
-          left: 24%; }
-          .contenedor header nav .menu li ul .oculto li {
-            text-decoration: none;
-            background-color: white;
-            color: black;
-            font-weight: bold;
-            padding: 0.7rem; }
-            .contenedor header nav .menu li ul .oculto li:hover {
-              color: #d8d8d8; }
-    .contenedor header nav .iconos ul {
-      list-style: none;
-      margin: 0px;
-      padding: 0px; }
-      .contenedor header nav .iconos ul li {
-        display: inline-block; }
-        .contenedor header nav .iconos ul li a {
-          padding: 1rem;
-          margin-right: 2rem;
-          margin-left: 2rem;
-          display: block;
-          width: 5px;
-          padding: 0px; }
-          .contenedor header nav .iconos ul li a:hover {
-            background-color: #ececec;
-            width: 20px;
-            height: 20px; }
-
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 50%;
-  overflow: hidden;
-  padding: 5px; }
-  .whatsapp .whatsapp__img {
-    width: 40px; }
-
-.contenedor .ft {
-  align-items: center;
-  background-color: black;
-  margin-top: -7%;
-  padding-top: 0%; }
-  .contenedor .ft .ft__sus {
-    margin-left: 10%;
-    margin-top: 3px; }
-    .contenedor .ft .ft__sus .ft__new {
-      margin-top: 10px; }
-    .contenedor .ft .ft__sus .ft__new-titulo {
-      display: grid;
-      margin-left: 20%;
-      justify-content: start;
-      font-weight: bold;
-      font-family: 'Montserrat', sans-serif;
-      color: white;
-      font-size: 15px; }
-    .contenedor .ft .ft__sus .ft__suscribite {
-      display: grid;
-      margin-left: 0%;
-      margin-top: 1%;
-      color: white;
-      font-size: 13PX;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold; }
-    .contenedor .ft .ft__sus .ft__m {
-      display: grid;
-      justify-content: left;
-      color: white;
-      font-family: 'Montserrat', sans-serif;
-      margin-left: 9%; }
-  .contenedor .ft .ft__info {
-    justify-content: right;
-    margin-left: 25%; }
-    .contenedor .ft .ft__info .ft__ul {
-      list-style: none; }
-      .contenedor .ft .ft__info .ft__ul .ft__li {
-        margin-top: 10%;
-        display: flex;
-        flex-direction: column-reverse; }
-        .contenedor .ft .ft__info .ft__ul .ft__li .ft__a {
-          text-decoration: none; }
-          .contenedor .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-contacto {
-            color: white;
-            font-family: "Montserrat", sans-serif;
-            font-size: 15px;
-            font-weight: bold; }
-          .contenedor .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-pf {
-            color: white;
-            font-family: "Montserrat", sans-serif;
-            font-size: 15px;
-            font-weight: bold;
-            margin-left: -16%; }
-          .contenedor .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-legales {
-            color: white;
-            font-family: "Montserrat", sans-serif;
-            font-size: 15px;
-            font-weight: bold;
-            margin-left: 2%; }
-  .contenedor .ft .ft__fs {
-    display: grid;
-    justify-content: center;
-    margin-top: 3%; }
-    .contenedor .ft .ft__fs .ft__titulo {
-      display: grid;
-      justify-content: center;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      font-weight: bold;
-      margin-left: 0%;
-      margin-top: -5%;
-      color: white; }
-  .contenedor .ft .ft__social {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: -5%; }
-
-.contenedor .pie {
-  background-color: #dad8d8; }
-  .contenedor .pie .pie__p {
-    font-family: 'Spectral SC', serif;
-    text-align: center;
-    color: #545555;
-    font-size: 15px; }
-
 .preguntas {
   margin-top: 5%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 15%;
   display: grid;
-  grid-template-areas: "enp cc" "enp stock" "enp pagos" "enp envios" "enp cambios";
-  grid-template-columns: 0.6fr 2.3fr; }
+  grid-gap: 20px;
+  grid-template-areas: "enp consultas";
+  grid-template-columns: 1fr 3fr; }
   .preguntas .enp {
-    grid-area: enp; }
-    .preguntas .enp ul {
-      display: grid;
-      position: fixed; }
-      .preguntas .enp ul li {
+    grid-area: enp;
+    display: flex;
+    flex-direction: column;
+    position: fixed; }
+    .preguntas .enp ul a {
+      list-style: none;
+      text-decoration: none; }
+      .preguntas .enp ul a li {
+        padding: 1%;
+        width: 250px;
         list-style: none;
-        text-decoration: none;
         background-color: #edd0ad;
-        margin: 3px;
-        margin-right: -12%;
+        margin-bottom: 5px;
         font-family: "Montserrat", sans-serif;
         font-size: 15px;
         color: black;
         font-weight: bold; }
-    .preguntas .enp .linea {
-      border-top: 1px solid black;
-      height: 2px;
-      max-width: 200px;
-      padding: 0;
-      margin: 20px auto 0 auto; }
-  .preguntas .cc {
-    grid-area: cc;
-    margin-right: 5%; }
-    .preguntas .cc h6 {
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      color: #ceb597;
-      font-weight: bold;
-      margin-bottom: 25px; }
-    .preguntas .cc li {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 13px;
-      color: #353535;
-      font-weight: bold;
-      margin-left: 15px;
-      margin-bottom: 8px; }
-      .preguntas .cc li p {
-        margin: 0px;
-        color: #222222; }
-    .preguntas .cc hr {
-      margin-right: 20%;
-      margin-top: 3%;
-      margin-bottom: 5%; }
-  .preguntas .stock {
-    grid-area: stock; }
-    .preguntas .stock h6 {
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      color: #ceb597;
-      font-weight: bold;
-      margin-bottom: 25px; }
-    .preguntas .stock hr {
-      margin-right: 20%;
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    .preguntas .stock h5 {
-      margin-bottom: 3%;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      margin-top: 3%;
-      font-weight: bold; }
-    .preguntas .stock p {
-      font-family: "Montserrat", sans-serif;
-      font-size: 13px;
-      font-weight: bold;
-      margin: 0%;
-      color: #222222; }
-  .preguntas .pagos {
-    grid-area: pagos; }
-    .preguntas .pagos h6 {
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      color: #ceb597;
-      font-weight: bold;
-      margin-bottom: 25px; }
-    .preguntas .pagos hr {
-      margin-right: 20%;
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    .preguntas .pagos h5 {
-      margin-bottom: 3%;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      margin-top: 3%;
-      font-weight: bold; }
-    .preguntas .pagos p {
-      font-family: "Montserrat", sans-serif;
-      font-size: 13px;
-      font-weight: bold;
-      margin: 0%;
-      color: #222222; }
-  .preguntas .envios {
-    grid-area: envios; }
-    .preguntas .envios h6 {
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      color: #ceb597;
-      font-weight: bold;
-      margin-bottom: 25px; }
-    .preguntas .envios hr {
-      margin-right: 20%;
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    .preguntas .envios h5 {
-      margin-bottom: 3%;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      margin-top: 3%;
-      font-weight: bold; }
-    .preguntas .envios p {
-      font-family: "Montserrat", sans-serif;
-      font-size: 13px;
-      font-weight: bold;
-      margin: 0%;
-      color: #222222; }
-  .preguntas .cambios {
-    grid-area: cambios; }
-    .preguntas .cambios h6 {
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      color: #ceb597;
-      font-weight: bold;
-      margin-bottom: 25px; }
-    .preguntas .cambios hr {
-      margin-right: 20%;
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    .preguntas .cambios h5 {
-      margin-bottom: 3%;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      margin-top: 3%;
-      font-weight: bold; }
-    .preguntas .cambios p {
-      font-family: "Montserrat", sans-serif;
-      font-size: 13px;
-      font-weight: bold;
-      margin: 0%;
-      color: #222222; }
+  .preguntas .consultas {
+    grid-area: consultas;
+    display: flex;
+    flex-direction: column; }
+    .preguntas .consultas .cc {
+      grid-area: cc; }
+      .preguntas .consultas .cc h6 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        color: #ceb597;
+        font-weight: bold;
+        margin-bottom: 25px; }
+      .preguntas .consultas .cc #comocomprar::before {
+        display: block;
+        content: " ";
+        margin-top: -285px;
+        height: 285px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .cc ol li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        color: #353535;
+        font-weight: bold;
+        margin-bottom: 8px; }
+        .preguntas .consultas .cc ol li p {
+          margin: 0px;
+          color: #353434; }
+      .preguntas .consultas .cc .linea {
+        border-top: 2px solid #d4d2d2;
+        height: 1px;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 150px; }
+    .preguntas .consultas .stock {
+      grid-area: stock; }
+      .preguntas .consultas .stock h6 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        color: #ceb597;
+        font-weight: bold;
+        margin-bottom: 25px; }
+      .preguntas .consultas .stock .linea {
+        border-top: 2px solid #d4d2d2;
+        height: 1px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 180px; }
+      .preguntas .consultas .stock h5 {
+        margin-bottom: 3%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        margin-top: 3%;
+        font-weight: bolder; }
+      .preguntas .consultas .stock p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0%;
+        color: #353434; }
+      .preguntas .consultas .stock .espacio {
+        margin-bottom: 30px; }
+      .preguntas .consultas .stock #stock::before {
+        display: block;
+        content: " ";
+        margin-top: -150px;
+        height: 150px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .stock #pago::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .stock #envio::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .stock #cambios::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+    .preguntas .consultas .pagos {
+      grid-area: pagos; }
+      .preguntas .consultas .pagos h6 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        color: #ceb597;
+        font-weight: bold;
+        margin-bottom: 25px; }
+      .preguntas .consultas .pagos .linea {
+        border-top: 2px solid #d4d2d2;
+        height: 1px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 180px; }
+      .preguntas .consultas .pagos h5 {
+        margin-bottom: 3%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        margin-top: 3%;
+        font-weight: bolder; }
+      .preguntas .consultas .pagos p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0%;
+        color: #353434; }
+      .preguntas .consultas .pagos .espacio {
+        margin-bottom: 30px; }
+      .preguntas .consultas .pagos #stock::before {
+        display: block;
+        content: " ";
+        margin-top: -150px;
+        height: 150px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .pagos #pago::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .pagos #envio::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .pagos #cambios::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+    .preguntas .consultas .envios {
+      grid-area: envios; }
+      .preguntas .consultas .envios h6 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        color: #ceb597;
+        font-weight: bold;
+        margin-bottom: 25px; }
+      .preguntas .consultas .envios .linea {
+        border-top: 2px solid #d4d2d2;
+        height: 1px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 180px; }
+      .preguntas .consultas .envios h5 {
+        margin-bottom: 3%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        margin-top: 3%;
+        font-weight: bolder; }
+      .preguntas .consultas .envios p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0%;
+        color: #353434; }
+      .preguntas .consultas .envios .espacio {
+        margin-bottom: 30px; }
+      .preguntas .consultas .envios #stock::before {
+        display: block;
+        content: " ";
+        margin-top: -150px;
+        height: 150px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .envios #pago::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .envios #envio::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .envios #cambios::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+    .preguntas .consultas .cambios {
+      grid-area: cambios; }
+      .preguntas .consultas .cambios h6 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        color: #ceb597;
+        font-weight: bold;
+        margin-bottom: 25px; }
+      .preguntas .consultas .cambios .linea {
+        border-top: 2px solid #d4d2d2;
+        height: 1px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 180px; }
+      .preguntas .consultas .cambios h5 {
+        margin-bottom: 3%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        margin-top: 3%;
+        font-weight: bolder; }
+      .preguntas .consultas .cambios p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0%;
+        color: #353434; }
+      .preguntas .consultas .cambios .espacio {
+        margin-bottom: 30px; }
+      .preguntas .consultas .cambios #stock::before {
+        display: block;
+        content: " ";
+        margin-top: -150px;
+        height: 150px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .cambios #pago::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .cambios #envio::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .cambios #cambios::before {
+        display: block;
+        content: " ";
+        margin-top: -160px;
+        height: 160px;
+        visibility: hidden;
+        pointer-events: none; }
 
 @media only screen and (max-width: 768px) {
   .preguntas {
-    margin-top: 10%;
-    margin-left: 3%;
-    margin-bottom: 15%;
-    margin-right: 15%;
-    display: grid;
-    grid-template-areas: "enp" "cc" "stock" "pagos" "envios" "cambios";
+    grid-template-areas: "enp"  "consultas";
     grid-template-columns: 3fr; }
     .preguntas .enp {
-      grid-area: enp; }
+      grid-area: enp;
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 0; }
       .preguntas .enp ul {
-        position: relative;
-        margin-bottom: 5px; }
-        .preguntas .enp ul li {
+        padding: 0%; }
+        .preguntas .enp ul a li {
+          width: 100%;
           text-align: center; }
-    .preguntas .cc {
-      margin-top: 10px;
-      grid-area: cc;
-      margin-left: 6%; }
-      .preguntas .cc hr {
-        width: 100%; }
-    .preguntas .stock {
-      margin-left: 6%; }
-      .preguntas .stock hr {
-        width: 100%; }
-    .preguntas .pagos {
-      margin-left: 6%;
-      margin-top: 20px; }
-      .preguntas .pagos hr {
-        width: 100%; }
-    .preguntas .envios {
-      margin-left: 6%;
-      margin-top: 20px; }
-      .preguntas .envios hr {
-        width: 100%; }
-    .preguntas .cambios {
-      margin-top: 20px;
-      margin-left: 6%; }
-      .preguntas .cambios hr {
-        width: 100%; }
-    .preguntas .whatsapp {
-      position: fixed;
-      bottom: 10px;
-      margin-right: 3%;
-      overflow: hidden;
-      padding: 5px; }
-      .preguntas .whatsapp .whatsapp__img {
-        width: 40px; } }
+    .preguntas .consultas {
+      grid-area: consultas;
+      display: flex;
+      flex-direction: column; }
+      .preguntas .consultas .cc {
+        grid-area: cc; }
+        .preguntas .consultas .cc #comocomprar::before {
+          display: none; }
+        .preguntas .consultas .cc .linea {
+          width: 100%;
+          margin-top: 10px;
+          margin-bottom: 30px; }
+        .preguntas .consultas .cc #comocomprar::before {
+          display: none;
+          content: " ";
+          margin-top: -150px;
+          height: 150px;
+          visibility: hidden;
+          pointer-events: none; }
+        .preguntas .consultas .cc h5 {
+          margin-bottom: 20px;
+          margin-top: 20px; }
+      .preguntas .consultas .stock #stock::before {
+        display: none; }
+      .preguntas .consultas .stock .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .preguntas .consultas .stock h5 {
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      .preguntas .consultas .pagos #pago::before {
+        display: none; }
+      .preguntas .consultas .pagos .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .preguntas .consultas .pagos h5 {
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      .preguntas .consultas .envios #envio::before {
+        display: none; }
+      .preguntas .consultas .envios .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .preguntas .consultas .envios h5 {
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      .preguntas .consultas .cambios #cambios::before {
+        display: none; }
+      .preguntas .consultas .cambios .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; } }
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+@media only screen and (min-width: 768px) and (max-width: 1210px) {
   .preguntas {
-    margin-top: 5%;
-    margin-left: 3%;
-    margin-bottom: 15%;
-    margin-right: 15%;
-    display: grid;
-    grid-template-areas: "enp" "cc" "stock" "pagos" "envios" "cambios";
+    grid-template-areas: "enp"  "consultas";
     grid-template-columns: 3fr; }
     .preguntas .enp {
-      grid-area: enp; }
+      grid-area: enp;
+      display: flex;
+      flex-direction: column;
+      position: sticky; }
       .preguntas .enp ul {
-        position: relative;
-        margin-bottom: 5px; }
-        .preguntas .enp ul li {
+        padding: 0%; }
+        .preguntas .enp ul a li {
+          width: 100%;
           text-align: center; }
-    .preguntas .cc {
-      margin-top: 10px;
-      grid-area: cc;
-      margin-left: 6%; }
-      .preguntas .cc hr {
-        width: 100%; }
-    .preguntas .stock {
-      margin-left: 6%; }
-      .preguntas .stock hr {
-        width: 100%; }
-    .preguntas .pagos {
-      margin-left: 6%;
-      margin-top: 20px; }
-      .preguntas .pagos hr {
-        width: 100%; }
-    .preguntas .envios {
-      margin-left: 6%;
-      margin-top: 20px; }
-      .preguntas .envios hr {
-        width: 100%; }
-    .preguntas .cambios {
-      margin-top: 20px;
-      margin-left: 6%; }
-      .preguntas .cambios hr {
-        width: 100%; }
-      .preguntas .cambios .whatsapp {
-        position: fixed;
-        bottom: 10px;
-        right: 55px;
-        overflow: hidden;
-        padding: 5px; }
-        .preguntas .cambios .whatsapp .whatsapp__img {
-          width: 40px; } }
+    .preguntas .consultas {
+      grid-area: consultas;
+      display: flex;
+      flex-direction: column; }
+      .preguntas .consultas .cc {
+        grid-area: cc; }
+        .preguntas .consultas .cc .linea {
+          width: 100%;
+          margin-top: 10px;
+          margin-bottom: 30px; }
+        .preguntas .consultas .cc #comocomprar::before {
+          display: block;
+          content: " ";
+          margin-top: -150px;
+          height: 150px;
+          visibility: hidden;
+          pointer-events: none; }
+        .preguntas .consultas .cc h5 {
+          margin-bottom: 20px;
+          margin-top: 20px; }
+      .preguntas .consultas .stock #stock::before {
+        display: block;
+        content: " ";
+        margin-top: -130px;
+        height: 130px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .stock .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .preguntas .consultas .stock h5 {
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      .preguntas .consultas .pagos #pago::before {
+        display: block;
+        content: " ";
+        margin-top: -130px;
+        height: 130px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .pagos .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .preguntas .consultas .pagos h5 {
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      .preguntas .consultas .envios #envio::before {
+        display: block;
+        content: " ";
+        margin-top: -130px;
+        height: 130px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .envios .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .preguntas .consultas .envios h5 {
+        margin-bottom: 20px;
+        margin-top: 20px; }
+      .preguntas .consultas .cambios #cambios::before {
+        display: block;
+        content: " ";
+        margin-top: -130px;
+        height: 130px;
+        visibility: hidden;
+        pointer-events: none; }
+      .preguntas .consultas .cambios .linea {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px; } }
 
 .whatsapp {
   position: fixed;
@@ -474,20 +496,34 @@
   .whatsapp .whatsapp__img {
     width: 40px; }
 
+@media only screen and (max-width: 768px) {
+  .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    margin-right: -2%;
+    overflow: hidden;
+    padding: 5px;
+    z-index: 1001; }
+    .whatsapp .whatsapp__img {
+      width: 40px; } }
+
 .contenedor header {
   z-index: 1001;
   position: sticky;
   top: 0px; }
-  .contenedor header h2 {
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  .contenedor header .enviogratis {
     background-color: white;
+    height: 20px;
     width: 100%; }
+    .contenedor header .enviogratis h2 {
+      font-size: 13px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      padding-top: 2px; }
   .contenedor header a {
     text-decoration: none; }
     .contenedor header a #fondoh {
-      background-color: #3a3a3a; }
+      background-color: black; }
     .contenedor header a h1 {
       color: #fdfbfb;
       font-weight: bold;
@@ -497,6 +533,8 @@
       text-align: center; }
       .contenedor header a h1:hover {
         color: #ebe7e7; }
+  .contenedor header .navr {
+    display: none; }
   .contenedor header nav {
     padding: 0px;
     margin: 0px;
@@ -555,9 +593,60 @@
           width: 5px;
           padding: 0px; }
           .contenedor header nav .iconos ul li a:hover {
-            background-color: #ececec;
-            width: 20px;
-            height: 20px; }
+            transform: scale(1.2); }
+
+@media only screen and (max-width: 768px) {
+  .contenedor {
+    background-color: white; }
+    .contenedor header {
+      z-index: 1001; }
+      .contenedor header nav {
+        display: none; }
+      .contenedor header .navr {
+        position: sticky;
+        top: 0;
+        display: block; }
+        .contenedor header .navr .contenedorr .botonr {
+          box-shadow: none; }
+        .contenedor header .navr .iconosr {
+          display: flex;
+          flex-direction: row;
+          margin-right: 0px; }
+          .contenedor header .navr .iconosr a {
+            padding-right: 20px; }
+            .contenedor header .navr .iconosr a:hover {
+              transform: scale(1.2); } }
+
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+  .contenedor {
+    background-color: white; }
+    .contenedor header nav {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      background-color: white; }
+      .contenedor header nav .menu {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 0%;
+        margin-bottom: 3px; }
+        .contenedor header nav .menu li a {
+          margin: 0%;
+          font-size: 13px; }
+          .contenedor header nav .menu li a ul .oculto {
+            left: 1%; }
+      .contenedor header nav .iconos {
+        margin-left: 70%;
+        margin-top: -45px;
+        margin-bottom: 10px; }
+        .contenedor header nav .iconos ul li a {
+          margin-right: 25px;
+          margin-left: 0rem;
+          display: block;
+          padding: 0px; }
+          .contenedor header nav .iconos ul li a:hover {
+            transform: scale(1.2); } }
 
 .contenedor .ft {
   align-items: center;
@@ -644,6 +733,156 @@
     text-align: center;
     color: #545555;
     font-size: 15px; }
+
+@media only screen and (max-width: 768px) {
+  .contenedor footer {
+    grid-area: footer;
+    width: 100%; }
+    .contenedor footer .ft {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 5%; }
+      .contenedor footer .ft .ft__sus {
+        display: grid;
+        justify-content: center;
+        margin-top: 5%; }
+        .contenedor footer .ft .ft__sus .ft__new .ft__new-titulo {
+          display: flex;
+          text-align: center;
+          font-size: 13px;
+          margin-left: 30%; }
+        .contenedor footer .ft .ft__sus .ft__new .ft__suscribite {
+          display: flex;
+          font-size: 10px;
+          margin-right: 3%; }
+        .contenedor footer .ft .ft__sus .ft__m {
+          display: flex;
+          margin-right: 15%; }
+      .contenedor footer .ft .ft__fs .ft__titulo {
+        margin-right: -10%;
+        font-size: 13px;
+        display: none; }
+      .contenedor footer .ft .ft__social {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        width: 100%; }
+        .contenedor footer .ft .ft__social img {
+          display: flex;
+          padding: 5%; }
+      .contenedor footer .ft .ft__info {
+        display: flex;
+        width: 100%;
+        margin-right: 10%;
+        margin-top: 3%;
+        justify-content: center; }
+        .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-contacto {
+          font-size: 12px;
+          margin-bottom: 0px; }
+        .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-pf {
+          font-size: 12px;
+          margin-left: -30%;
+          margin-bottom: 0px; }
+        .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-legales {
+          font-size: 12px;
+          margin-bottom: 0px; }
+        .contenedor footer .ft .ft__info .pie .pie__p {
+          font-size: 12px; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+  .contenedor footer .ft {
+    align-items: center;
+    background-color: black;
+    margin-top: -7%;
+    padding-top: 0%; }
+    .contenedor footer .ft .ft__sus {
+      margin-left: 10%;
+      margin-top: 3px; }
+      .contenedor footer .ft .ft__sus .ft__new {
+        margin-top: 10px; }
+      .contenedor footer .ft .ft__sus .ft__new-titulo {
+        display: grid;
+        margin-left: 20%;
+        justify-content: start;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 13px; }
+      .contenedor footer .ft .ft__sus .ft__suscribite {
+        display: grid;
+        margin-left: 2%;
+        margin-right: 28%;
+        margin-top: 1%;
+        color: white;
+        font-size: 10PX;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold; }
+      .contenedor footer .ft .ft__sus .ft__m {
+        display: grid;
+        justify-content: left;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 2%;
+        margin-right: 29%;
+        margin-bottom: 5%; }
+    .contenedor footer .ft .ft__info {
+      justify-content: right;
+      margin-left: 25%; }
+      .contenedor footer .ft .ft__info .ft__ul {
+        list-style: none; }
+        .contenedor footer .ft .ft__info .ft__ul .ft__li {
+          margin-top: 10%;
+          display: flex;
+          flex-direction: column-reverse; }
+          .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a {
+            text-decoration: none;
+            padding: 0px;
+            margin: 0px; }
+            .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-contacto {
+              color: white;
+              font-family: "Montserrat", sans-serif;
+              font-size: 12px;
+              font-weight: bold;
+              padding: 0px;
+              margin: 0px; }
+            .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-pf {
+              color: white(100, 25, 25);
+              font-family: "Montserrat", sans-serif;
+              font-size: 12px;
+              font-weight: bold;
+              text-align: center;
+              padding: 0px;
+              margin-left: -50%; }
+            .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-legales {
+              color: white;
+              font-family: "Montserrat", sans-serif;
+              font-size: 12px;
+              font-weight: bold;
+              margin-left: 2%; }
+    .contenedor footer .ft .ft__fs {
+      display: grid;
+      justify-content: center;
+      margin-top: 3%; }
+      .contenedor footer .ft .ft__fs .ft__titulo {
+        display: grid;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 0%;
+        margin-top: -5%;
+        color: white; }
+    .contenedor footer .ft .ft__social {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: -5%; }
+    .contenedor footer .ft .pie {
+      background-color: #dad8d8; }
+      .contenedor footer .ft .pie .pie__p {
+        font-family: 'Spectral SC', serif;
+        text-align: center;
+        color: #545555;
+        font-size: 20px; } }
 
 .container {
   display: grid;
@@ -780,6 +1019,10 @@
         display: block;
         width: 100%;
         margin-left: 5%; }
+        .contenedor .container .seccion1 .detalles img {
+          padding-left: 10%;
+          padding-right: 10%;
+          pointer-events: none; }
     .contenedor .container .seccion2 {
       display: none; }
     .contenedor .container .seccion3 {
@@ -812,16 +1055,7 @@
         width: 100%;
         font-family: "Montserrat", sans-serif; }
     .contenedor .container .seccion4 {
-      grid-area: seccion4; }
-    .contenedor .container .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 30px;
-      left: 81%;
-      overflow: hidden;
-      padding: 0px; }
-      .contenedor .container .whatsapp .whatsapp__img {
-        width: 40px; } }
+      grid-area: seccion4; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .contenedor .container {
@@ -916,15 +1150,7 @@
     .contenedor .form h3 {
       margin: 0%;
       margin-left: 10%;
-      margin-right: 10%; }
-    .contenedor .form .whatsapp {
-      position: fixed;
-      bottom: 10px;
-      margin-right: 3%;
-      overflow: hidden;
-      padding: 5px; }
-      .contenedor .form .whatsapp .whatsapp__img {
-        width: 40px; } }
+      margin-right: 10%; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .contenedor .form {
@@ -935,15 +1161,7 @@
     .contenedor .form h3 {
       margin: 0%;
       margin-left: 40%;
-      margin-right: 40%; }
-    .contenedor .form .whatsapp {
-      position: fixed;
-      bottom: 10px;
-      margin-right: 6%;
-      overflow: hidden;
-      padding: 5px; }
-      .contenedor .form .whatsapp .whatsapp__img {
-        width: 40px; } }
+      margin-right: 40%; } }
 
 .demano {
   display: flex;
@@ -993,25 +1211,40 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly; }
-    .demano .carteras img {
+    .demano .carteras .caja {
       width: 250px;
-      border: 1px #000000;
-      margin: 20px;
-      margin-right: 90px;
-      padding-left: 0%; }
-    .demano .carteras h4 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-top: -50px;
-      margin-left: 70px;
-      font-size: 15px; }
-    .demano .carteras h5 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-left: 135px;
-      font-size: 13PX; }
+      height: 250px;
+      position: relative;
+      margin-left: 0px;
+      margin-bottom: 15px;
+      justify-content: space-around; }
+      .demano .carteras .caja img {
+        display: block;
+        width: 250px;
+        border: 1px #000000;
+        opacity: 1; }
+        .demano .carteras .caja img:hover {
+          opacity: .4; }
+      .demano .carteras .caja .descripcion {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        top: 95%;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+        .demano .carteras .caja .descripcion h4 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          color: black;
+          font-size: 15px; }
+        .demano .carteras .caja .descripcion h5 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          color: black;
+          font-size: 13px; }
 
 @media only screen and (max-width: 882px) {
   .contenedor .demano {
@@ -1022,7 +1255,8 @@
     .contenedor .demano .filtrore {
       display: flex;
       flex-direction: row;
-      margin-top: 10%; }
+      margin-top: 10%;
+      z-index: 1001; }
       .contenedor .demano .filtrore .acordeonf {
         width: 100%;
         position: absolute;
@@ -1082,27 +1316,39 @@
             background-color: #c45125; }
     .contenedor .demano .carteras {
       display: flex;
+      margin: 0px;
+      margin-top: 18%;
+      margin-bottom: 10%;
+      justify-content: space-evenly;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
-      width: 100%;
-      margin-left: 0%;
-      margin-right: 0%;
-      margin-bottom: 5%;
-      margin-top: 15%; }
+      z-index: 1000; }
       .contenedor .demano .carteras img {
         margin: 0px;
-        width: 300px; }
-    .contenedor .demano .whatsapp {
-      position: fixed;
-      bottom: 10px;
-      right: 0px;
-      overflow: hidden;
-      padding: 5px; }
-      .contenedor .demano .whatsapp .whatsapp__img {
-        width: 40px; } }
+        width: 250px;
+        height: 250px; }
+      .contenedor .demano .carteras .descripcion {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        top: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+        .contenedor .demano .carteras .descripcion h4 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          color: black;
+          font-size: 15px; }
+        .contenedor .demano .carteras .descripcion h5 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          color: black;
+          font-size: 13px; } }
 
-@media only screen and (min-width: 882px) and (max-width: 1024px) {
+@media only screen and (min-width: 882px) and (max-width: 1140px) {
   .contenedor .demano .carteras {
     margin-left: 25%;
     margin-right: 0%;
@@ -1116,19 +1362,26 @@
       margin: 5px;
       margin-right: 0px;
       padding-left: 0%; }
-    .contenedor .demano .carteras h4 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-top: -50px;
-      margin-left: 70px;
-      font-size: 15px; }
-    .contenedor .demano .carteras h5 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-left: 135px;
-      font-size: 13PX; }
+    .contenedor .demano .carteras .descripcion {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      top: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+      .contenedor .demano .carteras .descripcion h4 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 15px; }
+      .contenedor .demano .carteras .descripcion h5 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 13px; }
   .contenedor .demano .filtro {
     display: flex;
     flex-direction: row;
@@ -1138,14 +1391,7 @@
     .contenedor .demano .filtro .acordionf {
       width: 250px; }
   .contenedor .demano .filtrore {
-    display: none; }
-  .contenedor .demano .whatsapp {
-    position: fixed;
-    bottom: 10px;
-    right: 25px;
-    overflow: hidden; }
-    .contenedor .demano .whatsapp .whatsapp__img {
-      width: 40px; } }
+    display: none; } }
 
 .locales {
   display: flex;
@@ -1277,12 +1523,16 @@
             padding-top: 5px; } }
 
 .contenedor main .imagen {
+  display: block;
   text-align: center;
   padding: 0px;
   margin: 0px;
   top: 0px; }
   .contenedor main .imagen .imagen__img {
     width: 100%; }
+
+.contenedor main .imagenr {
+  display: none; }
 
 .contenedor main .carteras {
   display: flex;
@@ -1297,14 +1547,14 @@
     opacity: 1; }
     .contenedor main .carteras .carteras__img:hover {
       opacity: .4; }
-  .contenedor main .carteras .carteras__nombre {
+  .contenedor main .carteras .carteras__descripcion .carteras__nombre {
     margin-top: 30px;
     margin-left: 30px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     color: black;
     font-size: 15PX; }
-  .contenedor main .carteras .carteras__precio {
+  .contenedor main .carteras .carteras__descripcion .carteras__precio {
     margin-left: 65px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1379,50 +1629,51 @@
 @media only screen and (max-width: 768px) {
   .contenedor {
     background-color: white; }
-    .contenedor header nav {
+    .contenedor main .imagen {
+      display: none; }
+    .contenedor main .imagenr {
+      position: relative;
+      display: block;
+      justify-content: center;
+      padding: 0px;
+      margin: 0px;
+      margin-left: 0%;
+      margin-right: 0%;
+      width: 100%; }
+      .contenedor main .imagenr img {
+        width: 100%;
+        margin-bottom: 5%; }
+      .contenedor main .imagenr .texto {
+        margin-top: -20%;
+        margin-bottom: 10%; }
+        .contenedor main .imagenr .texto .boton {
+          font-family: "Montserrat", sans-serif;
+          border-radius: 0px;
+          font-weight: bold;
+          font-size: 13px; }
+    .contenedor main .carteras {
       display: flex;
-      flex-direction: column;
-      width: 100%;
-      background-color: white; }
-      .contenedor header nav .menu {
-        padding: 0px;
-        margin: 0px;
-        margin-left: 0%; }
-        .contenedor header nav .menu li a {
-          margin: 0%;
-          font-size: 10px; }
-          .contenedor header nav .menu li a ul .oculto {
-            left: 1%; }
-      .contenedor header nav .iconos {
-        margin-left: 70%;
-        margin-top: -5%; }
-        .contenedor header nav .iconos ul {
-          list-style: none;
-          margin: 0px;
-          padding: 0px; }
-          .contenedor header nav .iconos ul li {
-            display: inline-block; }
-            .contenedor header nav .iconos ul li a {
-              padding: 0rem;
-              margin-right: 20px;
-              margin-left: 0rem;
-              display: block;
-              padding: 0px; }
-              .contenedor header nav .iconos ul li a img {
-                width: 15px;
-                height: 15px; }
-              .contenedor header nav .iconos ul li a:hover {
-                background-color: #ececec;
-                width: 5px;
-                height: 5px; }
-    .contenedor main .carteras .carteras__img {
-      width: 60%;
-      margin-left: 20%;
-      margin-right: 20%; }
-    .contenedor main .carteras .carteras__nombre {
-      margin-left: 35%; }
-    .contenedor main .carteras .carteras__precio {
-      margin-left: 45%; }
+      margin: 0px;
+      margin-top: 20%;
+      margin-bottom: 10%;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .contenedor main .carteras .carteras__img {
+        width: 400px;
+        height: 400px; }
+      .contenedor main .carteras .carteras__descripcion {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-left: 50px;
+        margin-bottom: 15%; }
+        .contenedor main .carteras .carteras__descripcion .carteras__nombre {
+          margin-top: 0x;
+          margin-left: 0px; }
+        .contenedor main .carteras .carteras__descripcion .carteras__precio {
+          margin-left: 0px; }
     .contenedor main .bs {
       display: grid;
       grid-template-areas: "imagen" "titulo" "carousel";
@@ -1440,7 +1691,8 @@
         width: 100%; }
         .contenedor main .bs .bs__titulo .bs__sofia {
           color: white;
-          font-size: 12px; }
+          font-size: 12px;
+          margin-top: 5px; }
       .contenedor main .bs .bs__carousel {
         grid-area: carousel;
         width: 100%;
@@ -1448,7 +1700,7 @@
     .contenedor main .i {
       background-color: white; }
       .contenedor main .i .i__titulo .i__follow {
-        font-size: 10px; }
+        font-size: 12px; }
       .contenedor main .i .i__ins {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1467,103 +1719,11 @@
       overflow: hidden;
       padding: 5px; }
       .contenedor main .whatsapp .whatsapp__img {
-        width: 40px; }
-    .contenedor footer {
-      grid-area: footer;
-      width: 100%; }
-      .contenedor footer .ft {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 5%; }
-        .contenedor footer .ft .ft__sus {
-          display: grid;
-          justify-content: center;
-          margin-top: 5%; }
-          .contenedor footer .ft .ft__sus .ft__new .ft__new-titulo {
-            display: flex;
-            text-align: center;
-            font-size: 13px;
-            margin-left: 30%; }
-          .contenedor footer .ft .ft__sus .ft__new .ft__suscribite {
-            display: flex;
-            font-size: 10px;
-            margin-right: 3%; }
-          .contenedor footer .ft .ft__sus .ft__m {
-            display: flex;
-            margin-right: 15%; }
-        .contenedor footer .ft .ft__fs .ft__titulo {
-          margin-right: -10%;
-          font-size: 13px;
-          display: none; }
-        .contenedor footer .ft .ft__social {
-          display: flex;
-          justify-content: space-evenly;
-          margin-top: 2%;
-          width: 100%; }
-          .contenedor footer .ft .ft__social img {
-            display: flex;
-            padding: 5%; }
-        .contenedor footer .ft .ft__info {
-          display: flex;
-          width: 100%;
-          margin-right: 10%;
-          margin-top: 3%;
-          justify-content: center; }
-          .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-contacto {
-            font-size: 12px;
-            margin-bottom: 0px; }
-          .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-pf {
-            font-size: 12px;
-            margin-left: -30%;
-            margin-bottom: 0px; }
-          .contenedor footer .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-legales {
-            font-size: 12px;
-            margin-bottom: 0px; }
-          .contenedor footer .ft .ft__info .pie .pie__p {
-            font-size: 12px; } }
+        width: 40px; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1300px) {
   .contenedor {
     background-color: white; }
-    .contenedor header nav {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: auto;
-      background-color: white; }
-      .contenedor header nav .menu {
-        padding: 0px;
-        margin: 0px;
-        margin-left: 0%;
-        margin-bottom: 3px; }
-        .contenedor header nav .menu li a {
-          margin: 0%;
-          font-size: 13px; }
-          .contenedor header nav .menu li a ul .oculto {
-            left: 1%; }
-      .contenedor header nav .iconos {
-        margin-left: 70%;
-        margin-top: -45px;
-        margin-bottom: 10px; }
-        .contenedor header nav .iconos ul {
-          list-style: none;
-          margin: 0px;
-          padding: 0px; }
-          .contenedor header nav .iconos ul li {
-            display: inline-block; }
-            .contenedor header nav .iconos ul li a {
-              padding: 0rem;
-              margin-right: 20px;
-              margin-left: 0rem;
-              display: block;
-              padding: 0px; }
-              .contenedor header nav .iconos ul li a img {
-                width: 15px;
-                height: 15px; }
-              .contenedor header nav .iconos ul li a:hover {
-                background-color: #ececec;
-                width: 5px;
-                height: 5px; }
     .contenedor main .i .i__titulo {
       background-color: #edd0ad;
       width: 100%;
@@ -1593,100 +1753,7 @@
       display: grid;
       justify-content: center;
       position: relative;
-      z-index: 1000; }
-    .contenedor .ft {
-      align-items: center;
-      background-color: black;
-      margin-top: -7%;
-      padding-top: 0%; }
-      .contenedor .ft .ft__sus {
-        margin-left: 10%;
-        margin-top: 3px; }
-        .contenedor .ft .ft__sus .ft__new {
-          margin-top: 10px; }
-        .contenedor .ft .ft__sus .ft__new-titulo {
-          display: grid;
-          margin-left: 20%;
-          justify-content: start;
-          font-weight: bold;
-          font-family: 'Montserrat', sans-serif;
-          color: white;
-          font-size: 13px; }
-        .contenedor .ft .ft__sus .ft__suscribite {
-          display: grid;
-          margin-left: 2%;
-          margin-right: 28%;
-          margin-top: 1%;
-          color: white;
-          font-size: 10PX;
-          font-family: 'Montserrat', sans-serif;
-          font-weight: bold; }
-        .contenedor .ft .ft__sus .ft__m {
-          display: grid;
-          justify-content: left;
-          color: white;
-          font-family: 'Montserrat', sans-serif;
-          margin-left: 2%;
-          margin-right: 29%;
-          margin-bottom: 5%; }
-      .contenedor .ft .ft__info {
-        justify-content: right;
-        margin-left: 25%; }
-        .contenedor .ft .ft__info .ft__ul {
-          list-style: none; }
-          .contenedor .ft .ft__info .ft__ul .ft__li {
-            margin-top: 10%;
-            display: flex;
-            flex-direction: column-reverse; }
-            .contenedor .ft .ft__info .ft__ul .ft__li .ft__a {
-              text-decoration: none;
-              padding: 0px;
-              margin: 0px; }
-              .contenedor .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-contacto {
-                color: white;
-                font-family: "Montserrat", sans-serif;
-                font-size: 12px;
-                font-weight: bold;
-                padding: 0px;
-                margin: 0px; }
-              .contenedor .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-pf {
-                color: white(100, 25, 25);
-                font-family: "Montserrat", sans-serif;
-                font-size: 12px;
-                font-weight: bold;
-                text-align: center;
-                padding: 0px;
-                margin-left: -50%; }
-              .contenedor .ft .ft__info .ft__ul .ft__li .ft__a .ft__li-legales {
-                color: white;
-                font-family: "Montserrat", sans-serif;
-                font-size: 12px;
-                font-weight: bold;
-                margin-left: 2%; }
-      .contenedor .ft .ft__fs {
-        display: grid;
-        justify-content: center;
-        margin-top: 3%; }
-        .contenedor .ft .ft__fs .ft__titulo {
-          display: grid;
-          justify-content: center;
-          font-family: "Montserrat", sans-serif;
-          font-size: 13px;
-          font-weight: bold;
-          margin-left: 0%;
-          margin-top: -5%;
-          color: white; }
-      .contenedor .ft .ft__social {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: -5%; }
-      .contenedor .ft .pie {
-        background-color: #dad8d8; }
-        .contenedor .ft .pie .pie__p {
-          font-family: 'Spectral SC', serif;
-          text-align: center;
-          color: #545555;
-          font-size: 20px; } }
+      z-index: 1000; } }
 
 .zapatos {
   display: flex;
@@ -1737,20 +1804,25 @@
       border: 1px #000000;
       margin: 10px;
       margin-right: 30px;
-      padding-left: 0%; }
-    .zapatos .calzado h4 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-top: -50px;
-      margin-left: 95px;
-      font-size: 15px; }
-    .zapatos .calzado h5 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-left: 140px;
-      font-size: 13PX; }
+      padding-left: 0%;
+      opacity: 1; }
+      .zapatos .calzado img:hover {
+        opacity: .4; }
+    .zapatos .calzado .zapatosDescripcion {
+      position: absolute; }
+      .zapatos .calzado .zapatosDescripcion h4 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: black;
+        margin-top: -50px;
+        margin-left: 95px;
+        font-size: 15px; }
+      .zapatos .calzado .zapatosDescripcion h5 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: black;
+        margin-left: 140px;
+        font-size: 13PX; }
   .zapatos .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -1816,15 +1888,7 @@
     .contenedor .zapatos .calzado h4 {
       margin-left: 105px; }
     .contenedor .zapatos .calzado h5 {
-      margin-left: 145px; }
-  .contenedor .zapatos .whatsapp {
-    position: fixed;
-    bottom: 10px;
-    right: -90px;
-    overflow: hidden;
-    padding: 5px; }
-    .contenedor .zapatos .whatsapp .whatsapp__img {
-      width: 40px; } }
+      margin-left: 145px; } }
 
 @media only screen and (min-width: 858px) and (max-width: 1024px) {
   .contenedor .zapatos .calzado {
@@ -1862,14 +1926,7 @@
     .contenedor .zapatos .filtro .acordionf {
       width: 250px; }
   .contenedor .zapatos .filtrore {
-    display: none; }
-  .contenedor .zapatos .whatsapp {
-    position: fixed;
-    bottom: 10px;
-    right: 25px;
-    overflow: hidden; }
-    .contenedor .zapatos .whatsapp .whatsapp__img {
-      width: 40px; } }
+    display: none; } }
 
 .accesorios {
   display: flex;
@@ -1920,20 +1977,25 @@
       border: 1px #000000;
       margin: 20px;
       margin-right: 10px;
-      padding-left: 0%; }
-    .accesorios .accesoriosi h4 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-top: -45px;
-      margin-left: 80px;
-      font-size: 15px; }
-    .accesorios .accesoriosi h5 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      color: black;
-      margin-left: 130px;
-      font-size: 13PX; }
+      padding-left: 0%;
+      opacity: 1; }
+      .accesorios .accesoriosi img:hover {
+        opacity: .4; }
+    .accesorios .accesoriosi .descripcionAccesorios {
+      position: absolute; }
+      .accesorios .accesoriosi .descripcionAccesorios h4 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: black;
+        margin-top: -45px;
+        margin-left: 80px;
+        font-size: 15px; }
+      .accesorios .accesoriosi .descripcionAccesorios h5 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: black;
+        margin-left: 130px;
+        font-size: 13PX; }
   .accesorios .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -1997,15 +2059,7 @@
     .contenedor .accesorios .accesoriosi h4 {
       margin-left: 100px; }
     .contenedor .accesorios .accesoriosi h5 {
-      margin-left: 150px; }
-  .contenedor .accesorios .whatsapp {
-    position: fixed;
-    bottom: 10px;
-    right: -90px;
-    overflow: hidden;
-    padding: 5px; }
-    .contenedor .accesorios .whatsapp .whatsapp__img {
-      width: 40px; } }
+      margin-left: 150px; } }
 
 @media only screen and (min-width: 858px) and (max-width: 1024px) {
   .contenedor .accesorios .accesoriosi {
@@ -2043,14 +2097,7 @@
     .contenedor .accesorios .filtro .acordionf {
       width: 250px; }
   .contenedor .accesorios .filtrore {
-    display: none; }
-  .contenedor .accesorios .whatsapp {
-    position: fixed;
-    bottom: 10px;
-    right: 25px;
-    overflow: hidden; }
-    .contenedor .accesorios .whatsapp .whatsapp__img {
-      width: 40px; } }
+    display: none; } }
 
 .contenedor {
   width: 100%; }

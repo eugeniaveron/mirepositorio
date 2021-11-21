@@ -21,18 +21,15 @@
 <body>
     <div class="contenedor">
         <header>
-            <h2 class="animate__animated animate__zoomIn">ENVÍO GRATIS A PARTIR DE $10.000</h2>
+            <div class="enviogratis">
+                <h2 class= "animate__animated animate__zoomIn">ENVÍO GRATIS A PARTIR DE $10.000</h2>
+            </div>
             <div>
                 <a href="index.html"><h1 id="fondoh">FURLA</h1></a>
             </div>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">CARTERAS</a>
-                        <ul class="oculto">
-                            <li><a href="#">BANDOLERAS</a></li>
-                            <li><a href="demano.html">DE MANO</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="demano.html">CARTERAS</a></li>
                     <li><a href="zapatos.html" >ZAPATOS</a></li>
                     <li><a href="accesorios.html">ACCESORIOS</a></li>
                     <li><a href="locales.html">LOCALES</a></li>
@@ -45,31 +42,67 @@
                     </ul>
                 </div>
             </nav>
+            <!-- nav responsive -->
+            <nav class="navbar navbar-light bg-white navr">
+            <div class="container-fluid contenedorr">
+                    <button class="navbar-toggler botonr" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="iconosr">
+                    <a href="#"><img src= "./iconos/lupa.png" alt="Icono lupa" width="20"></a>
+                    <a href="#"><img src="./iconos/bag1.png" alt="Icono cartera" width="23"></a>
+                    <a href="#"><img src="./iconos/usuario.png" alt="Icono usuario" width="20"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="demano.html">CARTERAS</a>
+                        <a class="nav-link" href="zapatos.html">ZAPATOS</a>
+                        <a class="nav-link" href="accesorios.html">ACCESORIOS</a>
+                        <a class="nav-link" href="locales.html">LOCALES</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         </header>
         <main>
                 <div class="imagen">
                     <img class="imagen__img" src="./imagenes/campaña/FURLA-min.jpg" alt="Imagen principal">
                 </div>
+            <!-- imagen responsive -->
+            <div class="imagenr">
+                <img src="./imagenes/campaña/furlar-min.jpg" alt="Imagen principal">     
+                <div class="d-grid gap-2 col-6 mx-auto texto">
+                    <a href="demano.html" button class="btn btn-dark boton" type="button">SHOP NOW</a>
+                </div>
+            </div>
             <div class="carteras">
                 <div>
-                    <a href="1927.html"><img class="carteras__img" src="./imagenes/cartera1-min.jpg" width="150x" alt="cartera 1"></a>
-                    <h4 class="carteras__nombre">CARTERA 1927</h4>
-                    <h5 class="carteras__precio">$12.900</h5>
+                    <a href="1927.html"><img class="carteras__img" src="./imagenes/cartera1927-1.jpg" width="150x" alt="cartera 1"></a>
+                    <div class="carteras__descripcion">
+                        <h4 class="carteras__nombre">CARTERA 1927</h4>
+                        <h5 class="carteras__precio">$12.900</h5>
+                    </div>
                 </div>
                 <div>
-                    <img class="carteras__img" src="./imagenes/carteraa2-min.jpg" width="150" alt="cartera 2">
-                    <h4 class="carteras__nombre">CARTERA 1927</h4>
-                    <h5 class="carteras__precio">$12.900</h5>
+                    <a href="1927r.html"><img class="carteras__img" src="./imagenes/cartera1927-2.jpg" width="150" alt="cartera 2"></a>
+                    <div class="carteras__descripcion">
+                        <h4 class="carteras__nombre">CARTERA 1927</h4>
+                        <h5 class="carteras__precio">$12.900</h5>
+                    </div>
                 </div>
                 <div>
-                    <img class="carteras__img" src="./imagenes/carteraa4-min.jpg" width="150" alt="cartera 3">
-                    <h4 class="carteras__nombre">CARTERA 1927</h4>
-                    <h5 class="carteras__precio">$12.900</h5>
+                    <a href="1927n.html"><img class="carteras__img" src="./imagenes/cartera1927-3.jpg" width="150" alt="cartera 3"></a>
+                    <div class="carteras__descripcion">
+                        <h4 class="carteras__nombre">CARTERA 1927</h4>
+                        <h5 class="carteras__precio">$12.900</h5>
+                    </div>
                 </div>
                 <div>
-                    <img class="carteras__img" src="./imagenes/carteraa5-min.jpg" width="150" alt="cartera 4">
-                    <h4 class="carteras__nombre">CARTERA 1927</h4>
-                    <h5 class="carteras__precio">$12.900</h5>
+                    <a href="1927rj.html"><img class="carteras__img" src="./imagenes/cartera1927-4.jpg" width="150" alt="cartera 4"></a>
+                    <div class="carteras__descripcion">
+                        <h4 class="carteras__nombre">CARTERA 1927</h4>
+                        <h5 class="carteras__precio">$12.900</h5>
+                    </div>
                 </div>
             </div>
             <div class="bs">
@@ -117,7 +150,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- Acá empieza la sección de instagram -->          
             <div class="i">   
                 <div class="i__titulo">

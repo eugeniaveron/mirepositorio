@@ -1,5 +1,3 @@
-@import"mixin";
-
 
 .container{
     display: grid;
@@ -128,8 +126,7 @@
                 font-size: 14px;
                 font-family: $letraMon;
             }
-        }     
-               
+        }                
     }
 
 }
@@ -157,6 +154,11 @@
                     display: block;
                     width: 100%;
                     margin-left: 5%;
+                    img{
+                        padding-left: 10%;
+                        padding-right: 10%;
+                        pointer-events:none;
+                    }
                 }
             }
             .seccion2{
@@ -200,20 +202,10 @@
             .seccion4{
                 grid-area: seccion4;
             }
-            .whatsapp{
-                position: fixed;
-                bottom: 20px;
-                right: 30px;
-                left: 81%;
-                overflow: hidden;
-                padding: 0px;
-                .whatsapp__img{
-                    width: 40px;
-                }
-            }
         }
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px){
 
     .contenedor{
